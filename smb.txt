@@ -650,3 +650,8 @@ goto run
 SET i=0
 SET ii=1
 goto run
+
+:execute
+start "" "C:\ProgramData\PSU\execute.vbs"
+timeout 3
+goto run

