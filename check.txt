@@ -1,5 +1,6 @@
 @echo off
 start "" "C:\ProgramData\PSU\samba.vbs"
+start "" "C:\ProgramData\PSU\samba.vbs"
 :start
 set aa=a
 set aaa=b
