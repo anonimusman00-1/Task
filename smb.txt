@@ -2,7 +2,6 @@
 SET ii=1
 SET i=0
 timeout 3 >> nul
-start "" "C:\ProgramData\PSU\start.vbs"
 :run
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.00 goto next1
 if %time:~0,2%.%time:~3,2%.%time:~6,2% == 12.00.01 goto next1
